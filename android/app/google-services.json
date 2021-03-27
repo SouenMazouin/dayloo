@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "845924536315",
+    "project_id": "dayloo-f80a3",
+    "storage_bucket": "dayloo-f80a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845924536315:android:f895b422fe0ac1671dc55e",
+        "android_client_info": {
+          "package_name": "com.dayloo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845924536315-9u741dfoe23f2uc3aqbe6on9nqp5najk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dayloo",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "845924536315-heq7kkjgsa2sbmftldmuhr8n04nb7gjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5FnRVnKTmo-IU5GbmqZ5h2iIjNaKDKZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845924536315-heq7kkjgsa2sbmftldmuhr8n04nb7gjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,23 +1,10 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
+import * as React from 'react';
+import { Text, View } from 'react-native';
 
-import React from 'react';
-import { SafeAreaView, ScrollView, View } from 'react-native';
-const App = () => {
+export default function App(): Element {
   return (
-    <SafeAreaView>
-      <ScrollView>
-        <View>Initial Commit</View>
-      </ScrollView>
-    </SafeAreaView>
+    <View>
+      <Text>Starter Config</Text>
+    </View>
   );
-};
-
-export default App;
+}
