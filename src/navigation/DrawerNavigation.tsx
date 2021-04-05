@@ -9,14 +9,14 @@ import ContactScreen from '../screens/ContactScreen';
 
 import DrawerMenu from '../components/DrawerMenu/DrawerMenu';
 
-export default function DrawerNavigation(): Element {
+export default function DrawerNavigation(): JSX.Element {
   const Drawer = createDrawerNavigator();
   return (
     <Drawer.Navigator drawerContent={(props) => <DrawerMenu {...props} />}>
-      <Drawer.Screen name="CardsScreen">{(props) => <CardsScreen {...props} />}</Drawer.Screen>
-      <Drawer.Screen name="LikesScreen">{(props) => <LikesScreen {...props} />}</Drawer.Screen>
-      <Drawer.Screen name="ShopScreen">{(props) => <ShopScreen {...props} />}</Drawer.Screen>
-      <Drawer.Screen name="ContactScreen">{(props) => <ContactScreen {...props} />}</Drawer.Screen>
+      <Drawer.Screen name="CardsScreen">{() => <CardsScreen />}</Drawer.Screen>
+      <Drawer.Screen name="LikesScreen">{() => <LikesScreen />}</Drawer.Screen>
+      <Drawer.Screen name="ShopScreen">{() => <ShopScreen />}</Drawer.Screen>
+      <Drawer.Screen name="ContactScreen">{() => <ContactScreen />}</Drawer.Screen>
     </Drawer.Navigator>
   );
 }

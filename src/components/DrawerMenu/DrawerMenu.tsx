@@ -1,12 +1,19 @@
 import * as React from 'react';
 import { View } from 'react-native';
 
-import { DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer';
+import {
+  DrawerContentComponentProps,
+  DrawerContentOptions,
+  DrawerContentScrollView,
+  DrawerItemList,
+} from '@react-navigation/drawer';
 import { IconButton, Drawer, Text } from 'react-native-paper';
 
 import styles from './DrawerMenu.style';
 
-export default function DrawerMenu(props): Element {
+export default function DrawerMenu(
+  props: DrawerContentComponentProps<DrawerContentOptions>,
+): JSX.Element {
   return (
     <DrawerContentScrollView {...props}>
       <Drawer.Section>

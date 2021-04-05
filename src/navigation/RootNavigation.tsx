@@ -2,11 +2,11 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import DrawerNavigator from './DrawerNavigation';
+import DrawerNavigation from './DrawerNavigation';
 
 import AppBar from '../components/AppBar/AppBar';
 
-export default function RootStackNavigation(): Element {
+export default function RootStackNavigation(): JSX.Element {
   const Stack = createStackNavigator();
   return (
     <NavigationContainer>
@@ -15,7 +15,7 @@ export default function RootStackNavigation(): Element {
         screenOptions={{
           header: AppBar,
         }}>
-        <Stack.Screen name="CardsScreen" component={DrawerNavigator} />
+        <Stack.Screen name="CardsScreen" component={DrawerNavigation} />
       </Stack.Navigator>
     </NavigationContainer>
   );
