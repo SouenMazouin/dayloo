@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Text, View } from 'react-native';
 
-export default function App(): Element {
+export default function ContactScreen(): JSX.Element {
   return (
     <View>
-      <Text>Starter Config</Text>
+      <Text>Contact Screen</Text>
     </View>
   );
 }
