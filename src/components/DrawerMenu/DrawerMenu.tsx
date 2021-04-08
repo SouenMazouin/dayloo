@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View } from 'react-native';
+import { View, Text, Button } from 'react-native';
 
 import {
   DrawerContentComponentProps,
@@ -7,7 +7,6 @@ import {
   DrawerContentScrollView,
   DrawerItemList,
 } from '@react-navigation/drawer';
-import { IconButton, Drawer, Text } from 'react-native-paper';
 
 import styles from './DrawerMenu.style';
 
@@ -16,12 +15,11 @@ export default function DrawerMenu(
 ): JSX.Element {
   return (
     <DrawerContentScrollView {...props}>
-      <Drawer.Section>
-        <View style={styles.headerContainer}>
-          <Text style={styles.headerTitle}>MENU</Text>
-          <IconButton icon="close" size={25} onPress={() => props.navigation.closeDrawer()} />
-        </View>
-      </Drawer.Section>
+      <View style={styles.headerContainer}>
+        <Text style={styles.headerTitle}>MENU</Text>
+        <Button title="Close Icon" onPress={() => props.navigation.closeDrawer()} />
+      </View>
+
       <DrawerItemList {...props} />
     </DrawerContentScrollView>
   );
