@@ -1,4 +1,4 @@
-package com.dayloo;
+package com.anaught.dayloo;
 
 import com.facebook.react.ReactActivity;
 
