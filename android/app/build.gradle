@@ -135,8 +135,8 @@ android {
         applicationId "com.anaught.dayloo"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode 207
+        versionName "0.2.6"
     }
     splits {
         abi {
@@ -153,6 +153,12 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+        // release {
+        //     storeFile file('')
+        //     storePassword ''
+        //     keyAlias ''
+        //     keyPassword ''
+        // }
     }
     buildTypes {
         debug {
