@@ -21,11 +21,9 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginLeft: 6,
   },
-
-  textItem: {
-    marginTop: 5,
-    marginRight: 25,
-    marginLeft: 15,
+  itemTitle: {
+    fontSize: 25,
+    fontWeight: 'bold',
   },
 });
 
