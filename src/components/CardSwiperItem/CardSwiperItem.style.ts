@@ -22,8 +22,11 @@ const styles = StyleSheet.create({
     marginLeft: 6,
   },
   itemTitle: {
-    fontSize: 25,
-    fontWeight: 'bold',
+    fontSize: 30,
+  },
+  itemTitleContainer: {
+    alignItems: 'center',
+    marginTop: 0,
   },
 });
 
