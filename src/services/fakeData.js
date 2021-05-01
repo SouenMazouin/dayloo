@@ -7,8 +7,8 @@ export const fakeData = [
     idCategory: 'geographie',
     datePublication: 1559340000000,
     theme: 'Océanie',
-    title: 'Niue',
-    subtitle: 'Îles tropicales',
+    title: '<m>P(E) = {n \\\\choose k} p^k (1-p)^{n-k}</m>',
+    subtitle: 'Lorem <i>Ipsum</> <b>dolor</> foo<br><b>bar</> <u>baz</><br>',
     highlight: {
       type: 'image',
       content:
@@ -45,15 +45,15 @@ export const fakeData = [
     ],
   },
   {
-    id: '2019-06-01_geographie_niue',
+    id: '2019-06-02_geographie_niue',
     idTitle: 'niue',
     idCategory: 'other',
     leftLineColor: 'orange',
     rightLineColor: 'green',
     datePublication: 1559340000000,
     theme: 'Océanie',
-    title: 'Kung Fu',
-    subtitle: '<math>P(E) = {n \\choose k} p^k (1-p)^{ n-k}<math>',
+    title: 'Kung fu',
+    subtitle: 'Test',
     highlight: {
       type: 'image',
       content:

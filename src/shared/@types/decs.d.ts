@@ -1,4 +1,5 @@
 declare module 'react-native-math-view';
+// declare module 'react-jsx-parser';
 declare module 'react-native-snap-carousel';
 declare module '*.png' {
   import { ImageSourcePropType } from 'react-native';

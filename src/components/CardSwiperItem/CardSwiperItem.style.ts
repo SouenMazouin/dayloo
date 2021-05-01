@@ -21,10 +21,15 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginLeft: 6,
   },
-  itemTitle: {
+  logoContainer: {
+    alignItems: 'center',
+    flexDirection: 'row',
+    marginTop: 15,
+  },
+  title: {
     fontSize: 30,
   },
-  itemTitleContainer: {
+  titleContainer: {
     alignItems: 'center',
     marginTop: 0,
   },
