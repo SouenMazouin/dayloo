@@ -2,15 +2,13 @@ export interface ItemProps {
   id: string;
   idTitle: string;
   idCategory: string;
-  // TODO: A Valider
-  leftLineColor: string;
-  rightLineColor: string;
-  // ->
+  lineColor: string; // TODO: ADD in model
   datePublication: number;
   theme: string;
   title: string;
   subtitle: string;
   highlight: { type: string; content: string };
+  formula: string; // TODO: ADD in model
 }
 
 export interface SwiperItemProps {
