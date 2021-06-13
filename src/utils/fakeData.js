@@ -8,8 +8,8 @@ export const fakeData = [
     title: 'Loi de la gravitation',
     subtitle: '<i>Newton 1686 </>',
     highlight: {
-      type: 'formula',
-      content: '<m>c^2=a^2+b^2-2\\cdot a \\cdot b \\cdot \\cos (\\gamma)</m>',
+      type: 'image',
+      content: 'https://cdn28.modele-lettre-gratuit.com/citations/img/auteurs600/589.jpg',
     },
     source: 'https://fr.wikipedia.org/wiki/Niue',
 

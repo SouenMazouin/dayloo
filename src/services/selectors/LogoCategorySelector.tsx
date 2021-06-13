@@ -1,8 +1,8 @@
 import React from 'react';
 import { Image, View } from 'react-native';
 
-import logo1 from '../assets/images/logo1.png';
-import logo2 from '../assets/images/logo2.png';
+import logo1 from '../../assets/images/logo1.png';
+import logo2 from '../../assets/images/logo2.png';
 
 export function logoCategorySelector(idCategory: string, lineColor: string): JSX.Element {
   return (

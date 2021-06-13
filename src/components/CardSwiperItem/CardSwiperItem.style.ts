@@ -1,14 +1,23 @@
-import { StyleSheet } from 'react-native';
-
+import { Dimensions, StyleSheet } from 'react-native';
+const win = Dimensions.get('window');
 const styles = StyleSheet.create({
   cardScrollView: {
     marginBottom: 10,
   },
-  highlightTitleContainer: {
+  highlightTitleImage: {
+    width: "85%",
+    height: 250,
+    aspectRatio: 1,
+  },
+  highlightTitleImageContainer: {
+    alignItems: 'center',
+  },
+  highlightTitleFormulaContainer: {
     alignItems: 'center',
     padding: 5,
-    borderColor: 'red',
-    borderWidth: 1,
+  },
+  highlightTitleFormula: {
+    width: 230,
   },
   item: {
     flex: 1,

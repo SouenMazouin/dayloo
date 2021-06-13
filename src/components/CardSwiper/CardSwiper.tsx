@@ -6,7 +6,7 @@ import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 import CardSwiperItem from '../CardSwiperItem/CardSwiperItem';
 import styles from './CardSwiper.style';
 
-import { fakeData } from '../../services/fakeData';
+import { fakeData } from '../../utils/fakeData';
 
 export default function CardSwiper(): JSX.Element {
   const carouselRef = useRef(null);
