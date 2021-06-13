@@ -4,6 +4,12 @@ const styles = StyleSheet.create({
   cardScrollView: {
     marginBottom: 10,
   },
+  highlightTitleContainer: {
+    alignItems: 'center',
+    padding: 5,
+    borderColor: 'red',
+    borderWidth: 1,
+  },
   item: {
     flex: 1,
     backgroundColor: 'white',
@@ -29,11 +35,14 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 25,
     textAlign: 'center',
-    paddingBottom: 12,
+    paddingBottom: 5,
   },
   titleContainer: {
     alignItems: 'center',
     marginTop: 0,
+  },
+  subtitle: {
+    marginBottom: 5,
   },
 });
 

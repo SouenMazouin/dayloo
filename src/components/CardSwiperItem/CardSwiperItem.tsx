@@ -1,11 +1,12 @@
 import React from 'react';
-import { View, ScrollView } from 'react-native';
+import { View, ScrollView, Image } from 'react-native';
 
 import { tagParser } from '../../services/Parsers';
-import { logoCategorySelector } from '../../services/Injectors';
+import { logoCategorySelector } from '../../services/LogoCategorySelector';
 import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 
 import styles from './CardSwiperItem.style';
+import { highlightTitleSelector } from '../../services/HighlightTitleSelector';
 
 export default function CardSwiperItem({ item }: SwiperItemProps): JSX.Element {
   return (
@@ -16,8 +17,9 @@ export default function CardSwiperItem({ item }: SwiperItemProps): JSX.Element {
         </View>
         <View style={styles.titleContainer}>
           {tagParser(item.title, styles.title)}
-          {tagParser(item.subtitle)}
+          {tagParser(item.subtitle, styles.subtitle)}
         </View>
+        {highlightTitleSelector(item.highlight.content, item.highlight.type)}
       </ScrollView>
     </View>
   );
