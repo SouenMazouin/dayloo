@@ -1,13 +1,8 @@
-// TODO: Refacto
-// TODO: Faire JSdoc
 import React from 'react';
 import { Text, View } from 'react-native';
 import JsxParser from 'react-jsx-parser';
-import { MathText, MathView } from 'react-native-math-view';
+import { MathView } from 'react-native-math-view';
 
-declare global {
-  type Dictionary<T> = { [key: string]: T };
-}
 const mapElement: Dictionary<string> = {
   '<t>': '<Text>',
   '<b>': '<Text style={{fontWeight: "bold"}}>',
@@ -34,6 +29,7 @@ export function tagParser(
         <JsxParser
           renderInWrapper={false}
           autoCloseVoidElements={true}
+          // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
           components={{ Text, MathView }}
           jsx={renderString}
         />

@@ -7,9 +7,6 @@ import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 
 import styles from './CardSwiperItem.style';
 
-// TODO :
-// - Refactos
-
 export default function CardSwiperItem({ item }: SwiperItemProps): JSX.Element {
   return (
     <View style={styles.item}>
