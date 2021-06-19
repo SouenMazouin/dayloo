@@ -16,7 +16,7 @@ export function highlightTitleSelector(
     <>
       {(() => {
         switch (highlightTitleType) {
-          case 'formula':
+          case 'formule':
             return (
               <View style={formulaContainer}>
                 {tagParser(highlightTitleContent, undefined, formulaStyle)}
@@ -27,13 +27,14 @@ export function highlightTitleSelector(
               <View style={imageContainer}>
                 <Image
                   style={imageStyle}
-                  // resizeMode={'contain'}
+                  resizeMode={'contain'}
                   source={{
                     uri: highlightTitleContent,
                   }}
                 />
               </View>
             );
+
           default:
             return null;
         }
