@@ -1,16 +1,25 @@
-import { Dimensions, StyleSheet } from 'react-native';
-const win = Dimensions.get('window');
+import { StyleSheet, Dimensions } from 'react-native';
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
+
 const styles = StyleSheet.create({
   cardScrollView: {
     marginBottom: 10,
   },
   highlightTitleImage: {
-    width: "85%",
-    height: 250,
-    aspectRatio: 1,
+    flex: 1,
+    width: undefined,
+    height: undefined,
+    resizeMode: 'contain',
+    borderRadius: 5,
   },
   highlightTitleImageContainer: {
-    alignItems: 'center',
+    marginTop: 10,
+    marginBottom: 10,
+    width: windowWidth / 1.25,
+    height: windowHeight / 3.8,
+    alignSelf: 'center',
+    borderRadius: 5,
   },
   highlightTitleFormulaContainer: {
     alignItems: 'center',

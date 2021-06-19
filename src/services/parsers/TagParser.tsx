@@ -11,8 +11,6 @@ export function tagParser(
   mathStyle: injectedStyle = {},
 ): JSX.Element {
   const mathStyleParsed = ObjectToString(mathStyle);
-  console.log(mathStyleParsed);
-
   const mapElement: Dictionary<string> = {
     '<t>': '<Text>',
     '<b>': '<Text style={{fontWeight: "bold"}}>',
