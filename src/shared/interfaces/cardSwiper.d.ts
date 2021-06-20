@@ -2,7 +2,6 @@ export interface ItemProps {
   id: string;
   idTitle: string;
   idCategory: string;
-  lineColor: string; // TODO: get this in catgoryFakeData
   datePublication: number;
   theme: string;
   title: string;
@@ -10,7 +9,18 @@ export interface ItemProps {
   highlight: { type: string; content: string };
 }
 
+export interface CategoryProps {
+  darkColor: string;
+  lightColor: string;
+  title: string;
+  logo: string;
+  id: string;
+  description: string;
+  active: boolean;
+}
+
 export interface SwiperItemProps {
   item: ItemProps;
   index: number;
+  category: CategoryProps | undefined;
 }

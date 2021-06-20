@@ -6,12 +6,13 @@ import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 import CardSwiperItem from '../CardSwiperItem/CardSwiperItem';
 import styles from './CardSwiper.style';
 
+// TODO: Injecting Data Categories from Firestore
 import { fakeData } from '../../utils/fakeData';
+import { fakeDataCategory } from '../../utils/fakeDataCategory';
 
 export default function CardSwiper(): JSX.Element {
   const carouselRef = useRef(null);
   const windowWidth = Dimensions.get('window').width;
-
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.swiperContainer}>
@@ -24,7 +25,10 @@ export default function CardSwiper(): JSX.Element {
           itemWidth={windowWidth / 1.015}
           disableIntervalMomentum={true}
           renderItem={({ item, index }: SwiperItemProps) => {
-            return <CardSwiperItem item={item} index={index} />;
+            const categoryExctract = fakeDataCategory.find((category) => {
+              return category.id === item.idCategory;
+            });
+            return <CardSwiperItem item={item} index={index} category={categoryExctract} />;
           }}
         />
       </View>

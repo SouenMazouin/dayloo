@@ -95,7 +95,7 @@ export const fakeData = [
   {
     id: '2019-06-01_geographie_niue',
     idTitle: 'niue',
-    idCategory: 'ia',
+    idCategory: 'ia_apprentissage',
     datePublication: 1559340000000,
 
     theme: 'Océanie',

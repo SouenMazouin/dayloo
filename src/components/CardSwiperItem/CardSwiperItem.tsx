@@ -1,19 +1,25 @@
 import React from 'react';
-import { View, ScrollView } from 'react-native';
+import { View, ScrollView, Image } from 'react-native';
 
-import { tagParser } from '../../services/parsers/TagParser';
 import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
+import { tagParser } from '../../services/parsers/TagParser';
+import { highlightTitleSelector } from '../../services/selectors/HighlightTitleSelector';
 
 import styles from './CardSwiperItem.style';
-import { highlightTitleSelector } from '../../services/selectors/HighlightTitleSelector';
-import { logoCategorySelector } from '../../services/selectors/LogoCategorySelector';
 
-export default function CardSwiperItem({ item }: SwiperItemProps): JSX.Element {
+export default function CardSwiperItem({ item, category }: SwiperItemProps): JSX.Element {
   return (
     <View style={styles.item}>
       <ScrollView style={styles.cardScrollView} persistentScrollbar={true}>
         <View style={styles.logoContainer}>
-          {logoCategorySelector(item.idCategory, item.lineColor)}
+          <View style={[{ borderColor: category?.lightColor }, styles.leftLine]} />
+          <Image
+            style={[{ backgroundColor: category?.lightColor }, styles.logoCategorie]}
+            resizeMode={'contain'}
+            // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
+            source={{ uri: `../../assets/images/categories/${category?.logo}` }}
+          />
+          <View style={[{ borderColor: category?.lightColor }, styles.rightLine]} />
         </View>
         <View style={styles.titleContainer}>
           {tagParser(item.title, styles.title)}

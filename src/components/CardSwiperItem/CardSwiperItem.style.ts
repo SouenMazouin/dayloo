@@ -45,10 +45,25 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginLeft: 6,
   },
+  leftLine: {
+    borderWidth: 1,
+    flexGrow: 1,
+    height: 0,
+  },
+  logoCategorie: {
+    width: 90,
+    height: 90,
+    margin: 10,
+    resizeMode: 'contain',
+  },
   logoContainer: {
     alignItems: 'center',
     flexDirection: 'row',
     marginTop: 15,
+  },
+  rightLine: {
+    borderWidth: 1,
+    flexGrow: 1,
   },
   title: {
     fontSize: 25,
