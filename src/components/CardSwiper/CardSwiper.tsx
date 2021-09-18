@@ -28,7 +28,6 @@ export default function CardSwiper(): JSX.Element {
             const categoryExtract = fakeDataCategory.filter((category) => {
               return category?.id === item?.idCategory;
             })[0];
-            console.log(categoryExtract);
             return <CardSwiperItem item={item} index={index} category={categoryExtract} />;
           }}
         />

@@ -14,9 +14,9 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   highlightTitleImageContainer: {
-    marginTop: 10,
+    marginTop: 5,
     marginBottom: 10,
-    width: windowWidth / 1.25,
+    width: windowWidth / 1.3,
     height: windowHeight / 3.8,
     alignSelf: 'center',
     borderRadius: 5,
@@ -51,15 +51,15 @@ const styles = StyleSheet.create({
     height: 0,
   },
   logoCategorie: {
-    width: 90,
-    height: 90,
+    width: 80,
+    height: 80,
     margin: 10,
-    resizeMode: 'contain',
+    resizeMode: 'cover',
   },
   logoContainer: {
     alignItems: 'center',
     flexDirection: 'row',
-    marginTop: 15,
+    marginTop: 8,
   },
   rightLine: {
     borderWidth: 1,

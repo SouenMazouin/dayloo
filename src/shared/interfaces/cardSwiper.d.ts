@@ -7,6 +7,9 @@ export interface ItemProps {
   title: string;
   subtitle: string;
   highlight: { type: string; content: string };
+  blocks: [
+    { type: string; highlight: { type: string; content: string }; text: string; example: string },
+  ];
 }
 
 export interface CategoryProps {

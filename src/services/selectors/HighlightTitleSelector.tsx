@@ -35,7 +35,7 @@ export default function highlightTitleSelector(
               </View>
             );
           default:
-            return null;
+            return <View></View>;
         }
       })()}
     </>

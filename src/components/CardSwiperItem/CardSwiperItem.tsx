@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, ScrollView, Image } from 'react-native';
+import { View, ScrollView, Image, Text } from 'react-native';
 
 import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 import tagParser from '../../services/parsers/TagParser';
@@ -33,6 +33,15 @@ export default function CardSwiperItem({ item, category }: SwiperItemProps): JSX
           styles.highlightTitleImage,
           styles.highlightTitleImageContainer,
         )}
+        <View>
+          {item.blocks.map((mappedBlocks, index) => {
+            return mappedBlocks.type == 'table' ? (
+              <Text key={index}> {mappedBlocks.type}</Text>
+            ) : (
+              <Text key={index}>{mappedBlocks.type}</Text>
+            );
+          })}
+        </View>
       </ScrollView>
     </View>
   );

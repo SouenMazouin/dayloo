@@ -1,0 +1,1718 @@
+
+    "2019-06-01_invention_pile_volta": {
+        "lien": "https://fr.wikipedia.org/wiki/Pile_volta%C3%AFque",
+        "sousImage": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Pila_di_Volta_01.jpg",
+        "id": "2019-06-01_invention_pile_volta",
+        "sousTitre": null,
+        "sousCategorie": "Énergie",
+        "titre": "Pile Volta",
+        "datePublication": 1559340000000,
+        "idCategorie": "invention",
+        "items": [
+            {
+                "icon": "calendar",
+                "img": null,
+                "exemple": "Origine",
+                "id": 0,
+                "texte": "1800 en Italie"
+            },
+            {
+                "texte": "Alessandro Volta",
+                "icon": "person",
+                "img": null,
+                "id": 1,
+                "exemple": "Inventeur"
+            },
+            {
+                "exemple": "On dispose alors du courant en continu et non des décharges de condensateurs comme auparavant.",
+                "id": 2,
+                "img": null,
+                "icon": null,
+                "texte": "Pile constituée par la superposition de rondelles de zinc et d'argent groupées par paires et séparées par un tissu imprégné d'eau salée."
+            }
+        ],
+        "__collections__": {}
+    },
+    "2019-06-01_vocabulaire_hf_coquettement": {
+        "titre": "coquettement",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=coquettement",
+        "idCategorie": "vocabulaire_hf",
+        "id": "2019-06-01_vocabulaire_hf_coquettement",
+        "datePublication": 1559340000000,
+        "sousTitre": "Adverbe",
+        "items": [
+            {
+                "icon": null,
+                "img": null,
+                "id": 0,
+                "texte": "D’une façon coquette.",
+                "exemple": "Une jeune personne éblouissante, fort coquettement mise et fort leste. — (Jean-Jacques Rousseau, Confess. 2e part. liv. VII, 1743-1744.)"
+            }
+        ],
+        "sousCategorie": "Heroïc Fantasy",
+        "sousImage": null,
+        "__collections__": {}
+    },
+    "2019-06-01_vocabulaire_sf_substantiellement": {
+        "lien": "https://fr.wiktionary.org/w/index.php?title=substantiellement",
+        "titre": "substantiellement",
+        "sousImage": null,
+        "idCategorie": "vocabulaire_sf",
+        "id": "2019-06-01_vocabulaire_sf_substantiellement",
+        "items": [
+            {
+                "texte": "De façon substantielle, beaucoup.",
+                "exemple": "Le prix de l’essence diminue substantiellement.",
+                "id": 0,
+                "img": null,
+                "icon": null
+            },
+            {
+                "texte": "Quant à la substance.",
+                "icon": null,
+                "id": 1,
+                "exemple": "Dans le sacrement de l’Eucharistie, on reçoit le corps de Notre-Seigneur réellement et substantiellement.",
+                "img": null
+            }
+        ],
+        "sousTitre": "Adverbe",
+        "sousCategorie": "Science Fiction",
+        "datePublication": 1559340000000,
+        "__collections__": {}
+    },
+    "2019-06-02_geographie_finlande": {
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/EU-Finland.svg/800px-EU-Finland.svg.png",
+        "lien": "https://fr.wikipedia.org/wiki/Finlande",
+        "datePublication": 1559426400000,
+        "titre": "Finlande",
+        "idCategorie": "geographie",
+        "items": [
+            {
+                "icon": "home",
+                "exemple": null,
+                "id": 0,
+                "texte": "Capitale : Helsinki",
+                "img": null
+            },
+            {
+                "icon": "mic",
+                "img": null,
+                "texte": "Langue : Finnois",
+                "id": 1,
+                "exemple": null
+            },
+            {
+                "texte": "114e pays le plus peuplé",
+                "img": null,
+                "id": 2,
+                "icon": "people",
+                "exemple": "Population : 5 522 015 (en 2018)"
+            },
+            {
+                "texte": "66e pays le plus grand",
+                "exemple": "Superficie : 338 145 km²",
+                "img": null,
+                "id": 3,
+                "icon": "resize"
+            },
+            {
+                "texte": "Monnaie : Euro",
+                "img": null,
+                "id": 4,
+                "icon": "card",
+                "exemple": null
+            },
+            {
+                "texte": "15e pays en IDH (2017)",
+                "img": null,
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,920",
+                "id": 5,
+                "icon": "pulse"
+            },
+            {
+                "id": 6,
+                "exemple": null,
+                "texte": "Régime : République parlementaire",
+                "img": null,
+                "icon": "power"
+            }
+        ],
+        "sousCategorie": "Europe",
+        "sousTitre": null,
+        "id": "2019-06-02_geographie_finlande",
+        "__collections__": {}
+    },
+    "2019-06-02_vocabulaire_hf_pompeusement": {
+        "lien": "https://fr.wiktionary.org/w/index.php?title=pompeusement",
+        "titre": "pompeusement",
+        "sousCategorie": "Heroïc Fantasy",
+        "idCategorie": "vocabulaire_hf",
+        "sousImage": null,
+        "items": [
+            {
+                "icon": null,
+                "img": null,
+                "id": 0,
+                "texte": "Avec pompe, apparat et grandeur.",
+                "exemple": "Les grands, pour s’affermir achetant les suffrages, tiennent pompeusement leurs maîtres à leurs gages,  (Pierre Corneille, Cinna, II, 1.)"
+            },
+            {
+                "img": null,
+                "id": 1,
+                "icon": null,
+                "texte": "(Figuré) Avec emphase et de façon maniérée.",
+                "exemple": "Toutefois, le millionnaire était un peu vexé par le peu d’ardeur que manifestait son neveu par alliance à faire la connaissance de « l’objet de sa flamme » ainsi qu’il appelait Chonchon, pompeusement. — (Pierre Souvestre et Marcel Allain, Le Bouquet tragique, 1912, chapitre XVII)"
+            }
+        ],
+        "datePublication": 1559426400000,
+        "sousTitre": "Adverbe",
+        "id": "2019-06-02_vocabulaire_hf_pompeusement",
+        "__collections__": {}
+    },
+    "2019-06-02_vocabulaire_sf_bassement": {
+        "sousImage": null,
+        "lien": "https://fr.wiktionary.org/w/index.php?title=bassement",
+        "sousTitre": "Adverbe",
+        "datePublication": 1559426400000,
+        "idCategorie": "vocabulaire_sf",
+        "sousCategorie": "Science Fiction",
+        "id": "2019-06-02_vocabulaire_sf_bassement",
+        "items": [
+            {
+                "texte": "(Figuré) (Péjoratif) D’une manière basse.",
+                "icon": null,
+                "id": 0,
+                "img": null,
+                "exemple": "[…] « À quoi cela sert-il ? » répète-t-il le plus volontiers ; et on la lui reproche assez, sa manie bassement utilitaire, et pratique, on la lui reproche un peu trop, et injustement ! — (Franc-Nohain [Maurice Étienne Legrand], Guide du bon sens, Éditions des Portiques, 1932)"
+            }
+        ],
+        "titre": "bassement",
+        "__collections__": {}
+    },
+    "2019-06-03_geographie_viet_nam": {
+        "items": [
+            {
+                "icon": "home",
+                "id": 0,
+                "exemple": null,
+                "texte": "Capitale : Hanoï",
+                "img": null
+            },
+            {
+                "exemple": null,
+                "texte": "Langue : Vietnamien",
+                "id": 1,
+                "icon": "mic",
+                "img": null
+            },
+            {
+                "id": 2,
+                "img": null,
+                "exemple": "Population : 92 699 227 (en 2016)",
+                "icon": "people",
+                "texte": "15e pays le plus peuplé"
+            },
+            {
+                "exemple": "Superficie : 330 967 km²",
+                "icon": "resize",
+                "texte": "67e pays le plus grand",
+                "id": 3,
+                "img": null
+            },
+            {
+                "img": null,
+                "texte": "Monnaie : Ð?ng",
+                "id": 4,
+                "exemple": null,
+                "icon": "card"
+            },
+            {
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,694",
+                "icon": "pulse",
+                "id": 5,
+                "texte": "117e pays en IDH (2017)",
+                "img": null
+            },
+            {
+                "id": 6,
+                "icon": "power",
+                "exemple": null,
+                "texte": "Régime : République socialiste",
+                "img": null
+            }
+        ],
+        "id": "2019-06-03_geographie_viet_nam",
+        "idCategorie": "geographie",
+        "titre": "Viêt Nam",
+        "datePublication": 1559512800000,
+        "sousTitre": null,
+        "sousCategorie": "Asie",
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/LocationVietnam.svg/800px-LocationVietnam.svg.png",
+        "lien": "https://fr.wikipedia.org/wiki/Vi%C3%AAt_Nam",
+        "__collections__": {}
+    },
+    "2019-06-03_vocabulaire_hf_frileusement": {
+        "sousCategorie": "Heroïc Fantasy",
+        "items": [
+            {
+                "img": null,
+                "id": 0,
+                "texte": "D'une manière frileuse.",
+                "icon": null,
+                "exemple": "Un grand chat noir, frileusement roulé en boule, rêvait dans la lueur rouge du feu, avec un tout petit ronron de béatitude. — (Isabelle Eberhardt, Le Major ,1903)"
+            }
+        ],
+        "titre": "frileusement",
+        "id": "2019-06-03_vocabulaire_hf_frileusement",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=frileusement",
+        "sousTitre": "Adverbe",
+        "sousImage": null,
+        "datePublication": 1559512800000,
+        "idCategorie": "vocabulaire_hf",
+        "__collections__": {}
+    },
+    "2019-06-03_vocabulaire_sf_douillettement": {
+        "sousCategorie": "Science Fiction",
+        "sousImage": null,
+        "id": "2019-06-03_vocabulaire_sf_douillettement",
+        "sousTitre": "Adverbe",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=douillettement",
+        "datePublication": 1559512800000,
+        "idCategorie": "vocabulaire_sf",
+        "items": [
+            {
+                "id": 0,
+                "icon": null,
+                "texte": "D’une manière douillette.",
+                "exemple": "Une somme de six cents couronnes, dit Isaac, et le bon prieur n’en sera pas moins douillettement assis dans sa stalle. — (Walter Scott, Ivanhoé, traduit de l’anglais par Alexandre Dumas, 1820)",
+                "img": null
+            }
+        ],
+        "titre": "douillettement",
+        "__collections__": {}
+    },
+    "2019-06-04_geographie_mauritanie": {
+        "id": "2019-06-04_geographie_mauritanie",
+        "lien": "https://fr.wikipedia.org/wiki/Mauritanie",
+        "titre": "Mauritanie",
+        "idCategorie": "geographie",
+        "sousCategorie": "Afrique",
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Mauritania_%28orthographic_projection%29.svg/800px-Mauritania_%28orthographic_projection%29.svg.png",
+        "items": [
+            {
+                "texte": "Capitale : Nouakchott",
+                "img": null,
+                "id": 0,
+                "icon": "home",
+                "exemple": null
+            },
+            {
+                "img": null,
+                "exemple": null,
+                "texte": "Langue : arabe",
+                "icon": "mic",
+                "id": 1
+            },
+            {
+                "img": null,
+                "id": 2,
+                "exemple": "Population : 3 840 429 (en 2018)",
+                "texte": "129e pays le plus peuplé",
+                "icon": "people"
+            },
+            {
+                "texte": "29e pays le plus grand",
+                "exemple": "Superficie : 1 030 700 km²",
+                "img": null,
+                "id": 3,
+                "icon": "resize"
+            },
+            {
+                "id": 4,
+                "icon": "card",
+                "exemple": null,
+                "img": null,
+                "texte": "Monnaie : Ouguiya"
+            },
+            {
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,520",
+                "img": null,
+                "id": 5,
+                "icon": "pulse",
+                "texte": "160e pays en IDH (2017)"
+            },
+            {
+                "exemple": null,
+                "icon": "power",
+                "texte": "Régime : République islamique",
+                "img": null,
+                "id": 6
+            }
+        ],
+        "sousTitre": null,
+        "datePublication": 1559599200000,
+        "__collections__": {}
+    },
+    "2019-06-04_vocabulaire_hf_effrontement": {
+        "sousCategorie": "Heroïc Fantasy",
+        "titre": "effrontément",
+        "idCategorie": "vocabulaire_hf",
+        "sousTitre": "Adverbe",
+        "sousImage": null,
+        "items": [
+            {
+                "texte": "Avec effronterie.",
+                "exemple": "Excepté de celle du roi de Navarre, répondit effrontément le Florentin. — (Alexandre Dumas, La Reine Margot, 1845, vol. I, ch. VI)",
+                "img": null,
+                "id": 0,
+                "icon": null
+            }
+        ],
+        "id": "2019-06-04_vocabulaire_hf_effrontement",
+        "datePublication": 1559599200000,
+        "lien": "https://fr.wiktionary.org/w/index.php?title=effrontément",
+        "__collections__": {}
+    },
+    "2019-06-04_vocabulaire_sf_consequemment": {
+        "sousCategorie": "Science Fiction",
+        "sousTitre": "Adverbe",
+        "sousImage": null,
+        "lien": "https://fr.wiktionary.org/w/index.php?title=conséquemment",
+        "id": "2019-06-04_vocabulaire_sf_consequemment",
+        "datePublication": 1559599200000,
+        "titre": "conséquemment",
+        "idCategorie": "vocabulaire_sf",
+        "items": [
+            {
+                "texte": "D’une manière conséquente, qui se suit, s’enchaîne.",
+                "id": 0,
+                "icon": null,
+                "exemple": "Bien définir ses mots pour parler conséquemment. — (Jacques-Bénigne Bossuet, Réponse.)",
+                "img": null
+            },
+            {
+                "id": 1,
+                "icon": null,
+                "exemple": "Ainsi conséquemment [il en est de même] de tout dont je t’offense. — (Mathurin Régnier, Satires, XV)",
+                "texte": "En conséquence.",
+                "img": null
+            }
+        ],
+        "__collections__": {}
+    },
+    "2019-06-05_geographie_guinee-bissau": {
+        "lien": "https://fr.wikipedia.org/wiki/Guin%C3%A9e-Bissau",
+        "datePublication": 1559685600000,
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/LocationGuineaBissau.svg/800px-LocationGuineaBissau.svg.png",
+        "idCategorie": "geographie",
+        "sousTitre": null,
+        "titre": "Guinée-Bissau",
+        "items": [
+            {
+                "icon": "home",
+                "id": 0,
+                "exemple": null,
+                "img": null,
+                "texte": "Capitale : Bissau"
+            },
+            {
+                "texte": "Langue : Portugais",
+                "icon": "mic",
+                "exemple": null,
+                "id": 1,
+                "img": null
+            },
+            {
+                "icon": "people",
+                "img": null,
+                "id": 2,
+                "exemple": "Population : 1 833 247 (en 2018)",
+                "texte": "148e pays le plus peuplé"
+            },
+            {
+                "texte": "134e pays le plus grand",
+                "img": null,
+                "id": 3,
+                "exemple": "Superficie : 36 120 km²",
+                "icon": "resize"
+            },
+            {
+                "id": 4,
+                "exemple": null,
+                "img": null,
+                "icon": "card",
+                "texte": "Monnaie : Franc CFA"
+            },
+            {
+                "img": null,
+                "icon": "pulse",
+                "id": 5,
+                "texte": "177e pays en IDH (2017)",
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,455"
+            },
+            {
+                "exemple": null,
+                "texte": "Régime : République",
+                "img": null,
+                "icon": "power",
+                "id": 6
+            }
+        ],
+        "id": "2019-06-05_geographie_guinee-bissau",
+        "sousCategorie": "Afrique",
+        "__collections__": {}
+    },
+    "2019-06-05_vocabulaire_hf_pudiquement": {
+        "datePublication": 1559685600000,
+        "sousImage": null,
+        "idCategorie": "vocabulaire_hf",
+        "sousTitre": "Adverbe",
+        "items": [
+            {
+                "icon": null,
+                "texte": "D’une manière pudique.",
+                "img": null,
+                "exemple": " Vivre pudiquement. s’exprimer pudiquement.",
+                "id": 0
+            }
+        ],
+        "sousCategorie": "Heroïc Fantasy",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=pudiquement",
+        "id": "2019-06-05_vocabulaire_hf_pudiquement",
+        "titre": "pudiquement",
+        "__collections__": {}
+    },
+    "2019-06-05_vocabulaire_sf_succinctement": {
+        "titre": "succinctement",
+        "sousTitre": "Adverbe",
+        "datePublication": 1559685600000,
+        "sousImage": null,
+        "lien": "https://fr.wiktionary.org/w/index.php?title=succinctement",
+        "sousCategorie": "Science Fiction",
+        "idCategorie": "vocabulaire_sf",
+        "items": [
+            {
+                "icon": null,
+                "img": null,
+                "id": 0,
+                "texte": "D’une manière succincte, en peu de mots.",
+                "exemple": "Il ne me reste plus qu’à rapporter les principales vertus des Romains dans la guerre ; je le ferai le plus succinctement qu’il me sera possible,  — (Charles Rollin, Traité des Ét. Suite de la 3e part. II, 2.)"
+            },
+            {
+                "img": null,
+                "id": 1,
+                "icon": null,
+                "texte": "(Figuré) (Familier) Pas copieusement.",
+                "exemple": "Déjeuner, dîner, souper succinctement."
+            }
+        ],
+        "id": "2019-06-05_vocabulaire_sf_succinctement",
+        "__collections__": {}
+    },
+    "2019-06-06_geographie_palestine": {
+        "items": [
+            {
+                "id": 0,
+                "texte": "Capitale : Jérusalem-Est",
+                "exemple": null,
+                "icon": "home",
+                "img": null
+            },
+            {
+                "id": 1,
+                "texte": "Langue : Arabe",
+                "icon": "mic",
+                "exemple": null,
+                "img": null
+            },
+            {
+                "exemple": "Population : 4 543 126 (en 2017)",
+                "texte": "125e pays le plus peuplé",
+                "id": 2,
+                "img": null,
+                "icon": "people"
+            },
+            {
+                "texte": "163e pays le plus grand",
+                "id": 3,
+                "icon": "resize",
+                "img": null,
+                "exemple": "Superficie : 6 020 km²"
+            },
+            {
+                "texte": "Monnaie : Shekel israélien",
+                "exemple": null,
+                "img": null,
+                "icon": "card",
+                "id": 4
+            },
+            {
+                "icon": "pulse",
+                "id": 5,
+                "texte": "119e pays en IDH (2017)",
+                "img": null,
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,686"
+            },
+            {
+                "icon": "power",
+                "img": null,
+                "texte": "Régime : République semi-présidentielle unitaire",
+                "id": 6,
+                "exemple": null
+            }
+        ],
+        "idCategorie": "geographie",
+        "lien": "https://fr.wikipedia.org/wiki/Palestine_(%C3%89tat)",
+        "datePublication": 1559772000000,
+        "id": "2019-06-06_geographie_palestine",
+        "titre": "Palestine",
+        "sousTitre": null,
+        "sousCategorie": null,
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/13/LocationPalestine.svg/800px-LocationPalestine.svg.png",
+        "__collections__": {}
+    },
+    "2019-06-06_vocabulaire_hf_outrageusement": {
+        "titre": "outrageusement",
+        "sousCategorie": "Heroïc Fantasy",
+        "idCategorie": "vocabulaire_hf",
+        "items": [
+            {
+                "id": 0,
+                "img": null,
+                "texte": "D’une manière outrageuse, avec outrage.",
+                "icon": null,
+                "exemple": "L’ayant traité outrageusement le renvoyèrent sans lui rien donner, […] — (Louis-Isaac Lemaistre de Sacy, Bible, Évang. St Luc, XX, 11)"
+            },
+            {
+                "id": 1,
+                "img": null,
+                "texte": "D’une manière violente, excessive.",
+                "icon": null,
+                "exemple": "Le père Payen fut volé l’autre jour, et battu outrageusement à la tête ; on ne croit pas qu’il en réchappe, […] — (Marquise de Sévigné, 439.)"
+            }
+        ],
+        "sousImage": null,
+        "lien": "https://fr.wiktionary.org/w/index.php?title=outrageusement",
+        "datePublication": 1559772000000,
+        "sousTitre": "Adverbe",
+        "id": "2019-06-06_vocabulaire_hf_outrageusement",
+        "__collections__": {}
+    },
+    "2019-06-06_vocabulaire_sf_lugubrement": {
+        "id": "2019-06-06_vocabulaire_sf_lugubrement",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=lugubrement",
+        "datePublication": 1559772000000,
+        "sousImage": null,
+        "titre": "lugubrement",
+        "items": [
+            {
+                "img": null,
+                "id": 0,
+                "icon": null,
+                "exemple": "Pierre se leva de table, sans un mot, et descendit au jardin ; le dîner s'acheva lugubrement. — (Pierre-Henri Simon, Les Valentin, 1931)",
+                "texte": "D’une manière lugubre."
+            }
+        ],
+        "sousCategorie": "Science Fiction",
+        "sousTitre": "Adverbe",
+        "idCategorie": "vocabulaire_sf",
+        "__collections__": {}
+    },
+    "2019-06-07_geographie_bulgarie": {
+        "id": "2019-06-07_geographie_bulgarie",
+        "items": [
+            {
+                "icon": "home",
+                "id": 0,
+                "texte": "Capitale : Sofia",
+                "img": null,
+                "exemple": null
+            },
+            {
+                "texte": "Langue : Bulgare",
+                "exemple": null,
+                "id": 1,
+                "img": null,
+                "icon": "mic"
+            },
+            {
+                "exemple": "Population : 7 101 510 (en 2017)",
+                "icon": "people",
+                "id": 2,
+                "img": null,
+                "texte": "102e pays le plus peuplé"
+            },
+            {
+                "exemple": "Superficie : 110 944 km²",
+                "id": 3,
+                "img": null,
+                "texte": "104e pays le plus grand",
+                "icon": "resize"
+            },
+            {
+                "icon": "card",
+                "id": 4,
+                "texte": "Monnaie : lev",
+                "exemple": null,
+                "img": null
+            },
+            {
+                "id": 5,
+                "texte": "51e pays en IDH (2017)",
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,813",
+                "icon": "pulse",
+                "img": null
+            },
+            {
+                "img": null,
+                "texte": "Régime : République parlementaire",
+                "icon": "power",
+                "exemple": null,
+                "id": 6
+            }
+        ],
+        "datePublication": 1559858400000,
+        "sousTitre": null,
+        "sousCategorie": "Europe",
+        "lien": "https://fr.wikipedia.org/wiki/Bulgarie",
+        "idCategorie": "geographie",
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/EU-Bulgaria.svg/800px-EU-Bulgaria.svg.png",
+        "titre": "Bulgarie",
+        "__collections__": {}
+    },
+    "2019-06-07_vocabulaire_hf_galamment": {
+        "sousCategorie": "Heroïc Fantasy",
+        "sousTitre": "Adverbe",
+        "idCategorie": "vocabulaire_hf",
+        "titre": "galamment",
+        "datePublication": 1559858400000,
+        "sousImage": null,
+        "id": "2019-06-07_vocabulaire_hf_galamment",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=galamment",
+        "items": [
+            {
+                "exemple": "Vers la tombée du jour, le poète, ayant pris son parapluie, baisa galamment les mains de Mme Mirondeau et lui fit ses adieux. — (Louis Pergaud, La Disparition mystérieuse, dans Les Rustiques, nouvelles villageoises, 1921)",
+                "texte": "D’une manière galante, en galant homme.",
+                "img": null,
+                "icon": null,
+                "id": 0
+            },
+            {
+                "texte": "(Vieilli) Avec goût, avec élégance,",
+                "id": 1,
+                "exemple": "La noblesse avait les gens de lettres pour habiller galamment son esprit, et des valets pour soigner sa toilette de corps. — (Paul Lafargue, Sapho , paru dans Le Socialiste, 2 janvier 1886)",
+                "img": null,
+                "icon": null
+            },
+            {
+                "exemple": "Il s’est tiré galamment de ce mauvais pas. Il a mené cette affaire-là fort galamment.",
+                "icon": null,
+                "id": 2,
+                "img": null,
+                "texte": "Habilement, adroitement, avec une délicatesse heureuse."
+            }
+        ],
+        "__collections__": {}
+    },
+    "2019-06-07_vocabulaire_sf_notoirement": {
+        "id": "2019-06-07_vocabulaire_sf_notoirement",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=notoirement",
+        "sousImage": null,
+        "sousTitre": "Adverbe",
+        "idCategorie": "vocabulaire_sf",
+        "sousCategorie": "Science Fiction",
+        "items": [
+            {
+                "id": 0,
+                "icon": null,
+                "exemple": "Du moment, n’est-ce pas, ajouta-t-il, que la recherche de la paternité est autorisée dans ce cas-là, attendu que ta fille notoirement a vécu avec lui comme concubine. — (Louis Pergaud, Joséphine est enceinte, dans Les Rustiques, nouvelles villageoises, 1921)",
+                "img": null,
+                "texte": "D’une manière notoire, manifestement, au vu et au su de tous."
+            }
+        ],
+        "datePublication": 1559858400000,
+        "titre": "notoirement",
+        "__collections__": {}
+    },
+    "2019-06-08_geographie_antigua-et-barbuda": {
+        "idCategorie": "geographie",
+        "items": [
+            {
+                "icon": "home",
+                "exemple": null,
+                "img": null,
+                "id": 0,
+                "texte": "Capitale : Saint John's"
+            },
+            {
+                "icon": "mic",
+                "exemple": null,
+                "id": 1,
+                "texte": "Langue : Anglais",
+                "img": null
+            },
+            {
+                "texte": "183e pays le plus peuplé",
+                "icon": "people",
+                "id": 2,
+                "exemple": "Population : 94 731 (en 2017)",
+                "img": null
+            },
+            {
+                "img": null,
+                "texte": "182e pays le plus grand",
+                "icon": "resize",
+                "id": 3,
+                "exemple": "Superficie : 442 km²"
+            },
+            {
+                "exemple": null,
+                "texte": "Monnaie : Dollar des Caraïbes orientales",
+                "icon": "card",
+                "id": 4,
+                "img": null
+            },
+            {
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,780",
+                "id": 5,
+                "icon": "pulse",
+                "img": null,
+                "texte": "70e pays en IDH (2017)"
+            },
+            {
+                "texte": "Régime : Monarchie constitutionnelle",
+                "exemple": null,
+                "img": null,
+                "id": 6,
+                "icon": "power"
+            }
+        ],
+        "lien": "https://fr.wikipedia.org/wiki/Antigua-et-Barbuda",
+        "id": "2019-06-08_geographie_antigua-et-barbuda",
+        "sousTitre": null,
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ATG_orthographic.svg/800px-ATG_orthographic.svg.png",
+        "titre": "Antigua-et-Barbuda",
+        "sousCategorie": "Amérique",
+        "datePublication": 1559944800000,
+        "__collections__": {}
+    },
+    "2019-06-08_vocabulaire_hf_grassement": {
+        "sousCategorie": "Heroïc Fantasy",
+        "titre": "grassement",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=grassement",
+        "sousImage": null,
+        "sousTitre": "Adverbe",
+        "id": "2019-06-08_vocabulaire_hf_grassement",
+        "datePublication": 1559944800000,
+        "idCategorie": "vocabulaire_hf",
+        "items": [
+            {
+                "id": 0,
+                "img": null,
+                "texte": "Fort à l’aise.",
+                "icon": null,
+                "exemple": "Toute une organisation formidable d’écumeurs et d’inutiles, vivant grassement, tripatouillant, combinant, s’enrichissant, sans produire quoi que ce fût d’utile. — (Victor Méric, Les Compagnons de l’Escopette, Éditions de l’Épi, Paris, 1930, page 128)"
+            },
+            {
+                "img": null,
+                "id": 1,
+                "icon": null,
+                "texte": "Largement, sans lésiner.",
+                "exemple": "Le trabendo mafieux ne peut pas fonctionner sans la complicité active et grassement rétribuée de certains responsables. — (Kerroum Achir, Nassima, page 118, 1997)"
+            }
+        ],
+        "__collections__": {}
+    },
+    "2019-06-08_vocabulaire_sf_amine": {
+        "id": "2019-06-08_vocabulaire_sf_amine",
+        "idCategorie": "vocabulaire_sf",
+        "sousImage": null,
+        "datePublication": 1559944800000,
+        "lien": "https://fr.wiktionary.org/w/index.php?title=aminé",
+        "sousTitre": "Adjectif",
+        "sousCategorie": "Science Fiction",
+        "items": [
+            {
+                "exemple": "Le fénarimol est un fongicide largement utilisé dans la lutte contre l’oïdium. Or, comme beaucoup de fongicides aminés à hétérocycle aromatique, il est toxique via plusieurs mécanismes d’action : […]. — (Christina Ferreira, Effets des perturbateurs endocriniens sur la fertilité mâle, thèse de doctorat vétérinaire, 4 février 2010)",
+                "id": 0,
+                "texte": "(Chimie) Qui possède un groupement amine.",
+                "icon": null,
+                "img": null
+            }
+        ],
+        "titre": "aminé",
+        "__collections__": {}
+    },
+    "2019-06-09_geographie_slovenie": {
+        "datePublication": 1560031200000,
+        "id": "2019-06-09_geographie_slovenie",
+        "sousTitre": null,
+        "items": [
+            {
+                "icon": "home",
+                "exemple": null,
+                "texte": "Capitale : Ljubljana",
+                "img": null,
+                "id": 0
+            },
+            {
+                "icon": "mic",
+                "exemple": null,
+                "texte": "Langue : Slovène",
+                "id": 1,
+                "img": null
+            },
+            {
+                "exemple": "Population : 2 070 050 (en 2018)",
+                "texte": "145e pays le plus peuplé",
+                "img": null,
+                "id": 2,
+                "icon": "people"
+            },
+            {
+                "exemple": "Superficie : 20 273 km²",
+                "img": null,
+                "id": 3,
+                "texte": "150e pays le plus grand",
+                "icon": "resize"
+            },
+            {
+                "exemple": null,
+                "img": null,
+                "icon": "card",
+                "id": 4,
+                "texte": "Monnaie : Euro"
+            },
+            {
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,901",
+                "icon": "pulse",
+                "id": 5,
+                "texte": "25e pays en IDH (2017)",
+                "img": null
+            },
+            {
+                "texte": "Régime : République parlementaire",
+                "id": 6,
+                "icon": "power",
+                "img": null,
+                "exemple": null
+            }
+        ],
+        "sousCategorie": "Europe",
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/84/EU-Slovenia.svg/800px-EU-Slovenia.svg.png",
+        "lien": "https://fr.wikipedia.org/wiki/Slov%C3%A9nie",
+        "idCategorie": "geographie",
+        "titre": "Slovénie",
+        "__collections__": {}
+    },
+    "2019-06-09_vocabulaire_hf_voluptueusement": {
+        "idCategorie": "vocabulaire_hf",
+        "sousImage": null,
+        "sousTitre": "Adverbe",
+        "datePublication": 1560031200000,
+        "items": [
+            {
+                "id": 0,
+                "img": null,
+                "texte": "Avec volupté.",
+                "exemple": "Ce sont des hommes lâches… qui ne savent que vivre voluptueusement, sans règle, sans morale,  (Jean-Baptiste Massillon, Carême, Doutes sur la religion.)",
+                "icon": null
+            }
+        ],
+        "id": "2019-06-09_vocabulaire_hf_voluptueusement",
+        "titre": "voluptueusement",
+        "sousCategorie": "Heroïc Fantasy",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=voluptueusement",
+        "__collections__": {}
+    },
+    "2019-06-09_vocabulaire_sf_compensateur": {
+        "idCategorie": "vocabulaire_sf",
+        "items": [
+            {
+                "id": 0,
+                "texte": "Qui compense.",
+                "icon": null,
+                "exemple": "En cas de cessation de ses relations avec le mandant, l’agent commercial a droit à une indemnité compensatrice en réparation du préjudice subi. — (Art.12, loi n° 91-593 du 25 juin 1991 relative aux rapports entre les agents commerciaux et leurs mandants, J.O.R.F., 27 juin 1991)",
+                "img": null
+            }
+        ],
+        "datePublication": 1560031200000,
+        "lien": "https://fr.wiktionary.org/w/index.php?title=compensateur",
+        "titre": "compensateur",
+        "sousCategorie": "Science Fiction",
+        "sousTitre": "Adjectif",
+        "id": "2019-06-09_vocabulaire_sf_compensateur",
+        "sousImage": null,
+        "__collections__": {}
+    },
+    "2019-06-10_geographie_malte": {
+        "items": [
+            {
+                "icon": "home",
+                "img": null,
+                "id": 0,
+                "texte": "Capitale : La Valette",
+                "exemple": null
+            },
+            {
+                "id": 1,
+                "exemple": null,
+                "img": null,
+                "texte": "Langue : Maltais",
+                "icon": "mic"
+            },
+            {
+                "id": 2,
+                "texte": "168e pays le plus peuplé",
+                "icon": "people",
+                "exemple": "Population : 446 547 (en 2013)",
+                "img": null
+            },
+            {
+                "icon": "resize",
+                "id": 3,
+                "texte": "186e pays le plus grand",
+                "exemple": "Superficie : 316 km²",
+                "img": null
+            },
+            {
+                "exemple": null,
+                "id": 4,
+                "img": null,
+                "texte": "Monnaie : Euro",
+                "icon": "card"
+            },
+            {
+                "texte": "29e pays en IDH (2017)",
+                "icon": "pulse",
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,878",
+                "id": 5,
+                "img": null
+            },
+            {
+                "exemple": null,
+                "texte": "Régime : République parlementaire",
+                "img": null,
+                "icon": "power",
+                "id": 6
+            }
+        ],
+        "idCategorie": "geographie",
+        "lien": "https://fr.wikipedia.org/wiki/Malte",
+        "datePublication": 1560117600000,
+        "sousTitre": null,
+        "sousCategorie": "Europe",
+        "titre": "Malte",
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Europe_location_Malte.png/800px-Europe_location_Malte.png",
+        "id": "2019-06-10_geographie_malte",
+        "__collections__": {}
+    },
+    "2019-06-10_vocabulaire_hf_chichement": {
+        "items": [
+            {
+                "texte": "D’une manière chiche.",
+                "img": null,
+                "id": 0,
+                "icon": null,
+                "exemple": "Le galant, pour toute besogne,\nAvait un brouet clair ; il vivait chichement. — (Jean de la Fontaine, Fables. I, 18.)"
+            }
+        ],
+        "sousImage": null,
+        "sousCategorie": "Heroïc Fantasy",
+        "sousTitre": "Adverbe",
+        "datePublication": 1560117600000,
+        "id": "2019-06-10_vocabulaire_hf_chichement",
+        "titre": "chichement",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=chichement",
+        "idCategorie": "vocabulaire_hf",
+        "__collections__": {}
+    },
+    "2019-06-10_vocabulaire_sf_consommable": {
+        "sousImage": null,
+        "sousCategorie": "Science Fiction",
+        "datePublication": 1560117600000,
+        "lien": "https://fr.wiktionary.org/w/index.php?title=consommable",
+        "items": [
+            {
+                "texte": "Qui peut être consommé sans inconvénient.",
+                "id": 0,
+                "icon": null,
+                "exemple": "Un comprimé est une préparation pharmaceutique dans laquelle on compresse fortement un produit actif dans une poudre pour le rendre facilement consommable.",
+                "img": null
+            }
+        ],
+        "titre": "consommable",
+        "idCategorie": "vocabulaire_sf",
+        "id": "2019-06-10_vocabulaire_sf_consommable",
+        "sousTitre": "Adjectif",
+        "__collections__": {}
+    },
+    "2019-06-11_geographie_bielorussie": {
+        "id": "2019-06-11_geographie_bielorussie",
+        "datePublication": 1560204000000,
+        "idCategorie": "geographie",
+        "lien": "https://fr.wikipedia.org/wiki/B%C3%A9larus",
+        "titre": "Biélorussie",
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Europe-Belarus.svg/800px-Europe-Belarus.svg.png",
+        "sousTitre": null,
+        "sousCategorie": "Europe",
+        "items": [
+            {
+                "icon": "home",
+                "exemple": null,
+                "id": 0,
+                "img": null,
+                "texte": "Capitale : Minsk"
+            },
+            {
+                "icon": "mic",
+                "img": null,
+                "id": 1,
+                "texte": "Langue : Biélorusse",
+                "exemple": null
+            },
+            {
+                "img": null,
+                "icon": "people",
+                "exemple": "Population : 9 475 200 (en 2019)",
+                "texte": "92e pays le plus peuplé",
+                "id": 2
+            },
+            {
+                "img": null,
+                "texte": "85e pays le plus grand",
+                "exemple": "Superficie : 207 600 km²",
+                "icon": "resize",
+                "id": 3
+            },
+            {
+                "texte": "Monnaie : Rouble biélorusse",
+                "icon": "card",
+                "exemple": null,
+                "id": 4,
+                "img": null
+            },
+            {
+                "id": 5,
+                "icon": "pulse",
+                "img": null,
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,808",
+                "texte": "53e pays en IDH (2017)"
+            },
+            {
+                "icon": "power",
+                "exemple": null,
+                "id": 6,
+                "img": null,
+                "texte": "Régime : République présidentielle"
+            }
+        ],
+        "__collections__": {}
+    },
+    "2019-06-11_vocabulaire_hf_decemment": {
+        "lien": "https://fr.wiktionary.org/w/index.php?title=décemment",
+        "titre": "décemment",
+        "items": [
+            {
+                "img": null,
+                "exemple": "Se vêtir décemment, se comporter décemment.",
+                "icon": null,
+                "texte": "D’une manière décente, conformément à la décence, aux convenances.",
+                "id": 0
+            },
+            {
+                "id": 1,
+                "exemple": "Décemment, nous ne pouvons pas nous dispenser de lui faire une visite.",
+                "icon": null,
+                "img": null,
+                "texte": "Raisonnablement, pour être convenable."
+            }
+        ],
+        "sousCategorie": "Heroïc Fantasy",
+        "id": "2019-06-11_vocabulaire_hf_decemment",
+        "sousImage": null,
+        "sousTitre": "Adverbe",
+        "idCategorie": "vocabulaire_hf",
+        "datePublication": 1560204000000,
+        "__collections__": {}
+    },
+    "2019-06-11_vocabulaire_sf_crepu": {
+        "id": "2019-06-11_vocabulaire_sf_crepu",
+        "sousImage": null,
+        "titre": "crépu",
+        "sousCategorie": "Science Fiction",
+        "sousTitre": "Adjectif",
+        "items": [
+            {
+                "img": null,
+                "texte": "(Coiffure) Très frisé ; crêpé.",
+                "exemple": "Sous son chapeau, à bords retroussés, apparaissaient, riches et crépus, des cheveux plutôt roux que blonds ; […]. — (Alexandre Dumas, La Reine Margot, 1845, vol. I, ch. IV)",
+                "id": 0,
+                "icon": null
+            },
+            {
+                "exemple": "Feuilles crépues.",
+                "icon": null,
+                "img": null,
+                "id": 1,
+                "texte": "(Botanique) Qualifie les feuilles dont le bord est ondulé et chargé de petites rides très rapprochées."
+            },
+            {
+                "icon": null,
+                "texte": "(Zoologie) Qui est découpée régulièrement et quelquefois transversalement par des sillons onduleux.",
+                "id": 2,
+                "exemple": "Coquilles crépues.",
+                "img": null
+            }
+        ],
+        "idCategorie": "vocabulaire_sf",
+        "datePublication": 1560204000000,
+        "lien": "https://fr.wiktionary.org/w/index.php?title=crépu",
+        "__collections__": {}
+    },
+    "2019-06-12_geographie_guyana": {
+        "lien": "https://fr.wikipedia.org/wiki/Guyana",
+        "id": "2019-06-12_geographie_guyana",
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Guyana_%28orthographic_projection%29.svg/800px-Guyana_%28orthographic_projection%29.svg.png",
+        "datePublication": 1560290400000,
+        "titre": "Guyana",
+        "sousCategorie": "Amérique",
+        "items": [
+            {
+                "exemple": null,
+                "texte": "Capitale : Georgetown",
+                "icon": "home",
+                "id": 0,
+                "img": null
+            },
+            {
+                "texte": "Langue : Anglais",
+                "img": null,
+                "id": 1,
+                "icon": "mic",
+                "exemple": null
+            },
+            {
+                "img": null,
+                "id": 2,
+                "texte": "161e pays le plus peuplé",
+                "icon": "people",
+                "exemple": "Population : 737 718 (en 2017)"
+            },
+            {
+                "exemple": "Superficie : 214 970 km²",
+                "texte": "84e pays le plus grand",
+                "id": 3,
+                "img": null,
+                "icon": "resize"
+            },
+            {
+                "texte": "Monnaie : Dollar du Guyana",
+                "icon": "card",
+                "id": 4,
+                "exemple": null,
+                "img": null
+            },
+            {
+                "texte": "126e pays en IDH (2017)",
+                "img": null,
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,654",
+                "id": 5,
+                "icon": "pulse"
+            },
+            {
+                "texte": "Régime : République",
+                "exemple": null,
+                "img": null,
+                "id": 6,
+                "icon": "power"
+            }
+        ],
+        "sousTitre": null,
+        "idCategorie": "geographie",
+        "__collections__": {}
+    },
+    "2019-06-12_vocabulaire_hf_lestement": {
+        "items": [
+            {
+                "texte": "D’une manière leste.",
+                "img": null,
+                "exemple": "L'ours, qui avait le vent mauvais, parut, de son côté, ignorer la présence d'un ennemi, et continua lestement son chemin vers l'arbre. — (Alexandre Dumas, Impressions de voyage, La Revue des Deux Mondes T.1, 1833)",
+                "id": 0,
+                "icon": null
+            },
+            {
+                "texte": "(Figuré) Avec dextérité et promptitude.",
+                "icon": null,
+                "id": 1,
+                "exemple": "Il n’y a pas de dame dans tout le comté qui s’habille plus lestement que ma maîtresse. — (Walter Scott, Ivanhoé, traduit de l’anglais par Alexandre Dumas, 1820)",
+                "img": null
+            },
+            {
+                "id": 2,
+                "exemple": "Cette femme agit, parle, se conduit trop lestement. - Il m’a répondu fort lestement.",
+                "texte": "Avec une légèreté répréhensible.",
+                "icon": null,
+                "img": null
+            }
+        ],
+        "sousImage": null,
+        "idCategorie": "vocabulaire_hf",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=lestement",
+        "id": "2019-06-12_vocabulaire_hf_lestement",
+        "datePublication": 1560290400000,
+        "sousCategorie": "Heroïc Fantasy",
+        "sousTitre": "Adverbe",
+        "titre": "lestement",
+        "__collections__": {}
+    },
+    "2019-06-12_vocabulaire_sf_filial": {
+        "sousTitre": "Adjectif",
+        "items": [
+            {
+                "texte": "Qui convient à un enfant à l’égard de ses parents.",
+                "icon": null,
+                "exemple": "Obéissance filiale.",
+                "id": 0,
+                "img": null
+            }
+        ],
+        "sousImage": null,
+        "sousCategorie": "Science Fiction",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=filial",
+        "idCategorie": "vocabulaire_sf",
+        "datePublication": 1560290400000,
+        "titre": "filial",
+        "id": "2019-06-12_vocabulaire_sf_filial",
+        "__collections__": {}
+    },
+    "2019-06-13_geographie_saint-christophe-et-nieves": {
+        "datePublication": 1560376800000,
+        "items": [
+            {
+                "id": 0,
+                "texte": "Capitale : Basseterre",
+                "exemple": null,
+                "img": null,
+                "icon": "home"
+            },
+            {
+                "exemple": null,
+                "id": 1,
+                "img": null,
+                "texte": "Langue : Anglais",
+                "icon": "mic"
+            },
+            {
+                "texte": "188e pays le plus peuplé",
+                "icon": "people",
+                "exemple": "Population : 52 329 (en 2016)",
+                "img": null,
+                "id": 2
+            },
+            {
+                "id": 3,
+                "texte": "188e pays le plus grand",
+                "icon": "resize",
+                "img": null,
+                "exemple": "Superficie : 261 km²"
+            },
+            {
+                "texte": "Monnaie : Dollar des Caraïbesorientales",
+                "icon": "card",
+                "img": null,
+                "id": 4,
+                "exemple": null
+            },
+            {
+                "id": 5,
+                "icon": "pulse",
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,778",
+                "texte": "72e pays en IDH (2017)",
+                "img": null
+            },
+            {
+                "icon": "power",
+                "texte": "Régime : Monarchie constitutionnelle fédérative",
+                "exemple": null,
+                "id": 6,
+                "img": null
+            }
+        ],
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/KNA_orthographic.svg/800px-KNA_orthographic.svg.png",
+        "lien": "https://fr.wikipedia.org/wiki/Saint-Christophe-et-Ni%C3%A9v%C3%A8s",
+        "id": "2019-06-13_geographie_saint-christophe-et-nieves",
+        "sousCategorie": "Amérique",
+        "titre": "Saint-Christophe-et-Niévès",
+        "sousTitre": null,
+        "idCategorie": "geographie",
+        "__collections__": {}
+    },
+    "2019-06-13_vocabulaire_hf_obligeamment": {
+        "sousCategorie": "Heroïc Fantasy",
+        "sousTitre": "Adverbe",
+        "datePublication": 1560376800000,
+        "items": [
+            {
+                "texte": "D’une manière obligeante, courtoise ou aimable.",
+                "id": 0,
+                "img": null,
+                "icon": null,
+                "exemple": "[…]; bien souvent d'ailleurs et très obligeamment, BONATI fils, qui fut pour moi un ami sûr, me procura d'intéressants renseignements sur la flore hygrophile de la vallée moyenne. — (Gustave Malcuit, Contributions à l’étude phytosociologique des Vosges méridionales saônoises : les associations végétales de la vallée de la Lanterne, thèse de doctorat, Société d’édition du Nord, 1929, p. 3)"
+            }
+        ],
+        "idCategorie": "vocabulaire_hf",
+        "id": "2019-06-13_vocabulaire_hf_obligeamment",
+        "titre": "obligeamment",
+        "sousImage": null,
+        "lien": "https://fr.wiktionary.org/w/index.php?title=obligeamment",
+        "__collections__": {}
+    },
+    "2019-06-13_vocabulaire_sf_granule": {
+        "sousCategorie": "Science Fiction",
+        "titre": "granulé",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=granulé",
+        "idCategorie": "vocabulaire_sf",
+        "sousTitre": "Adjectif",
+        "id": "2019-06-13_vocabulaire_sf_granule",
+        "sousImage": null,
+        "datePublication": 1560376800000,
+        "items": [
+            {
+                "id": 0,
+                "icon": null,
+                "img": null,
+                "texte": "Formé de petits grains.",
+                "exemple": "Marbre granulé."
+            },
+            {
+                "id": 1,
+                "texte": "(Histoire naturelle) Qui renferme ou porte des granulations, ou qui en a l’apparence.",
+                "icon": null,
+                "img": null,
+                "exemple": null
+            }
+        ],
+        "__collections__": {}
+    },
+    "2019-06-14_geographie_iles_marshall": {
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Marshall_Islands_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg/800px-Marshall_Islands_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg.png",
+        "items": [
+            {
+                "icon": "home",
+                "exemple": null,
+                "id": 0,
+                "texte": "Capitale : Delap-Uliga-Darrit",
+                "img": null
+            },
+            {
+                "id": 1,
+                "img": null,
+                "icon": "mic",
+                "texte": "Langue : Marshallais",
+                "exemple": null
+            },
+            {
+                "icon": "people",
+                "exemple": "Population : 70 983 (en 2014)",
+                "img": null,
+                "id": 2,
+                "texte": "187e pays le plus peuplé"
+            },
+            {
+                "icon": "resize",
+                "img": null,
+                "id": 3,
+                "texte": "191e pays le plus grand",
+                "exemple": "Superficie : 181 km²"
+            },
+            {
+                "texte": "Monnaie : Dollar américain",
+                "id": 4,
+                "icon": "card",
+                "img": null,
+                "exemple": null
+            },
+            {
+                "texte": "107e pays en IDH (2017)",
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,708",
+                "id": 5,
+                "icon": "pulse",
+                "img": null
+            },
+            {
+                "icon": "power",
+                "id": 6,
+                "texte": "Régime : République parlementaire",
+                "exemple": null,
+                "img": null
+            }
+        ],
+        "titre": "Îles Marshall",
+        "lien": "https://fr.wikipedia.org/wiki/%C3%8Eles_Marshall",
+        "sousTitre": null,
+        "id": "2019-06-14_geographie_iles_marshall",
+        "datePublication": 1560463200000,
+        "idCategorie": "geographie",
+        "sousCategorie": "Océanie",
+        "__collections__": {}
+    },
+    "2019-06-14_vocabulaire_hf_aumonier": {
+        "sousTitre": "Adjectif",
+        "sousImage": null,
+        "id": "2019-06-14_vocabulaire_hf_aumonier",
+        "datePublication": 1560463200000,
+        "items": [
+            {
+                "exemple": "Ce prince était fort aumônier.",
+                "img": null,
+                "id": 0,
+                "texte": "Qui donne souvent l’aumône aux pauvres.",
+                "icon": null
+            }
+        ],
+        "sousCategorie": "Heroïc Fantasy",
+        "idCategorie": "vocabulaire_hf",
+        "lien": "https://fr.wiktionary.org/w/index.php?title=aumônier",
+        "titre": "aumônier",
+        "__collections__": {}
+    },
+    "2019-06-14_vocabulaire_sf_lacte": {
+        "sousCategorie": "Science Fiction",
+        "sousTitre": "Adjectif",
+        "items": [
+            {
+                "exemple": "Diète lactée, Régime dans lequel les malades font du lait leur principal aliment.",
+                "id": 0,
+                "img": null,
+                "icon": null,
+                "texte": "Relatif au lait."
+            },
+            {
+                "icon": null,
+                "exemple": "Plantes lactées.",
+                "id": 1,
+                "texte": "(Botanique) Lactifère, contenant des sucs laiteux",
+                "img": null
+            },
+            {
+                "id": 2,
+                "texte": "(Anatomie) Relatif aux petits conduits qui sont dispersés dans le mésentère et qui des intestins portent le chyle au réservoir de Pecquet.",
+                "icon": null,
+                "img": null,
+                "exemple": "Vaisseaux lactés, veines lactées."
+            }
+        ],
+        "lien": "https://fr.wiktionary.org/w/index.php?title=lacté",
+        "idCategorie": "vocabulaire_sf",
+        "id": "2019-06-14_vocabulaire_sf_lacte",
+        "datePublication": 1560463200000,
+        "sousImage": null,
+        "titre": "lacté",
+        "__collections__": {}
+    },
+    "2019-06-15_geographie_zambie": {
+        "datePublication": 1560549600000,
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Zambia_%28orthographic_projection%29.svg/800px-Zambia_%28orthographic_projection%29.svg.png",
+        "lien": "https://fr.wikipedia.org/wiki/Zambie",
+        "idCategorie": "geographie",
+        "id": "2019-06-15_geographie_zambie",
+        "items": [
+            {
+                "icon": "home",
+                "exemple": null,
+                "img": null,
+                "id": 0,
+                "texte": "Capitale : Lusaka"
+            },
+            {
+                "id": 1,
+                "texte": "Langue : anglais",
+                "img": null,
+                "exemple": null,
+                "icon": "mic"
+            },
+            {
+                "texte": "70e pays le plus peuplé",
+                "img": null,
+                "exemple": "Population : 15 066 266 (en 2015)",
+                "icon": "people",
+                "id": 2
+            },
+            {
+                "texte": "39e pays le plus grand",
+                "exemple": "Superficie : 752 614 km²",
+                "img": null,
+                "id": 3,
+                "icon": "resize"
+            },
+            {
+                "id": 4,
+                "texte": "Monnaie : Kwacha zambien",
+                "exemple": null,
+                "icon": "card",
+                "img": null
+            },
+            {
+                "id": 5,
+                "img": null,
+                "icon": "pulse",
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,588",
+                "texte": "145e pays en IDH (2017)"
+            },
+            {
+                "id": 6,
+                "img": null,
+                "texte": "Régime : République",
+                "icon": "power",
+                "exemple": null
+            }
+        ],
+        "titre": "Zambie",
+        "sousCategorie": "Afrique",
+        "sousTitre": null,
+        "__collections__": {}
+    },
+    "2019-06-15_vocabulaire_hf_becque": {
+        "idCategorie": "vocabulaire_hf",
+        "sousImage": null,
+        "lien": "https://fr.wiktionary.org/w/index.php?title=becqué",
+        "titre": "becqué",
+        "id": "2019-06-15_vocabulaire_hf_becque",
+        "sousCategorie": "Heroïc Fantasy",
+        "sousTitre": "Adjectif",
+        "datePublication": 1560549600000,
+        "items": [
+            {
+                "exemple": "Duroie — d’azur, au cygne d’argent, becqué et membré de gueules, au chef d’or, chargé de trois merlettes de sable. — (Jacques-Paul Migne, Encyclopédie théologique, colonne 249, 1852)",
+                "texte": "(Héraldique) Qualifie un oiseau dont le bec est d’une couleur différente.",
+                "id": 0,
+                "icon": null,
+                "img": null
+            }
+        ],
+        "__collections__": {}
+    },
+    "2019-06-15_vocabulaire_sf_maint": {
+        "datePublication": 1560549600000,
+        "lien": "https://fr.wiktionary.org/w/index.php?title=maint",
+        "sousCategorie": "Science Fiction",
+        "idCategorie": "vocabulaire_sf",
+        "sousImage": null,
+        "titre": "maint",
+        "id": "2019-06-15_vocabulaire_sf_maint",
+        "sousTitre": "Adjectif indéfini",
+        "items": [
+            {
+                "id": 0,
+                "img": null,
+                "exemple": "Ta robe de bohème onduleuse et lamée\nOù l’or parmi la soie allume maint éclair. — (Albert Samain, Le Chariot d’or. Symphonie héroïque, page 96, 1900)",
+                "texte": "(Vieilli) ou (Littéraire) Beaucoup de, un grand nombre de (+ substantif au singulier ou au pluriel).",
+                "icon": null
+            }
+        ],
+        "__collections__": {}
+    },
+    "2019-06-16_geographie_soudan": {
+        "items": [
+            {
+                "icon": "home",
+                "exemple": null,
+                "id": 0,
+                "img": null,
+                "texte": "Capitale : Khartoum"
+            },
+            {
+                "icon": "mic",
+                "img": null,
+                "id": 1,
+                "exemple": null,
+                "texte": "Langue : Arabe"
+            },
+            {
+                "texte": "32e pays le plus peuplé",
+                "id": 2,
+                "exemple": "Population : 43 120 843 (en 2018)",
+                "img": null,
+                "icon": "people"
+            },
+            {
+                "texte": "16e pays le plus grand",
+                "exemple": "Superficie : 1 886 068 km²",
+                "img": null,
+                "icon": "resize",
+                "id": 3
+            },
+            {
+                "icon": "card",
+                "img": null,
+                "texte": "Monnaie : Livre soudanaise",
+                "id": 4,
+                "exemple": null
+            },
+            {
+                "icon": "pulse",
+                "texte": "167e pays en IDH (2017)",
+                "img": null,
+                "id": 5,
+                "exemple": "L'IDH regroupe santé/longévité, savoir/niveau d'éducation, niveau de vie (pouvoir d'achat). Sa valeur ici est de 0,502"
+            },
+            {
+                "img": null,
+                "id": 6,
+                "exemple": null,
+                "texte": "Régime : République fédérale sous une junte militaire",
+                "icon": "power"
+            }
+        ],
+        "lien": "https://fr.wikipedia.org/wiki/Soudan",
+        "idCategorie": "geographie",
+        "sousImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sudan_%28orthographic_projection%29_highlighted.svg/800px-Sudan_%28orthographic_projection%29_highlighted.svg.png",
+        "sousCategorie": "Afrique",
+        "titre": "Soudan",
+        "id": "2019-06-16_geographie_soudan",
+        "datePublication": 1560636000000,
+        "sousTitre": null,
+        "__collections__": {}
+    },
+    "2019-06-16_vocabulaire_hf_empenne": {
+        "titre": "empenné",
+        "id": "2019-06-16_vocabulaire_hf_empenne",
+        "datePublication": 1560636000000,
+        "sousImage": null,
+        "idCategorie": "vocabulaire_hf",
+        "sousCategorie": "Heroïc Fantasy",
+        "sousTitre": "Adjectif",
+        "items": [
+            {
+                "id": 0,
+                "texte": "(Héraldique) Se dit d’une flèche, un carreau, un dard dont l’empennage est d’un autre émail.",
+                "exemple": "D’azur à la fasce ondée haussée d’argent, accompagnée en chef des inscriptions en lettres capitales d’argent « AY » à dextre et « AR » à senestre, et en pointe d’un arc couché d’or, cordé de gueules sur lequel est ajustée une flèche d’argent, ferrée et empennée d’or, qui est de Ayros-Arbouix ? voir  illustration « flèche empennée »",
+                "icon": null,
+                "img": null
+            }
+        ],
+        "lien": "https://fr.wiktionary.org/w/index.php?title=empenné",
+        "__collections__": {}
+    },
+    "2019-06-16_vocabulaire_sf_remanent": {
+        "datePublication": 1560636000000,
+        "sousTitre": "Adjectif",
+        "id": "2019-06-16_vocabulaire_sf_remanent",
+        "sousCategorie": "Science Fiction",
+        "sousImage": null,
+        "lien": "https://fr.wiktionary.org/w/index.php?title=rémanent",
+        "items": [
+            {
+                "id": 0,
+                "img": null,
+                "icon": null,
+                "texte": "Qui perdure après la disparition de la cause qui l’a mis en place.",
+                "exemple": "On a observé des cas où dans des roches éruptives le magnétisme rémanent naturel est beaucoup plus intense que l'induction. — (ROTHÉ, Géophys., 1943, p. 380)"
+            }
+        ],
+        "idCategorie": "vocabulaire_sf",
+        "titre": "rémanent",
+        "__collections__": {}
+    }
+}
