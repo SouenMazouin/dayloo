@@ -2,8 +2,9 @@ import React from 'react';
 import { View, ScrollView, Image } from 'react-native';
 
 import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
-import { tagParser } from '../../services/parsers/TagParser';
-import { highlightTitleSelector } from '../../services/selectors/HighlightTitleSelector';
+import tagParser from '../../services/parsers/TagParser';
+import highlightTitleSelector from '../../services/selectors/HighlightTitleSelector';
+import logoCategorySelector from '../../services/selectors/LogoCategorySelector';
 
 import styles from './CardSwiperItem.style';
 
@@ -16,8 +17,7 @@ export default function CardSwiperItem({ item, category }: SwiperItemProps): JSX
           <Image
             style={[{ backgroundColor: category?.lightColor }, styles.logoCategorie]}
             resizeMode={'contain'}
-            // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-            source={{ uri: `../../assets/images/categories/${category?.logo}` }}
+            source={logoCategorySelector(category?.logo)}
           />
           <View style={[{ borderColor: category?.lightColor }, styles.rightLine]} />
         </View>

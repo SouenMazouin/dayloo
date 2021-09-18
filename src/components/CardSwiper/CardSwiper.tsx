@@ -25,10 +25,11 @@ export default function CardSwiper(): JSX.Element {
           itemWidth={windowWidth / 1.015}
           disableIntervalMomentum={true}
           renderItem={({ item, index }: SwiperItemProps) => {
-            const categoryExctract = fakeDataCategory.find((category) => {
-              return category.id === item.idCategory;
-            });
-            return <CardSwiperItem item={item} index={index} category={categoryExctract} />;
+            const categoryExtract = fakeDataCategory.filter((category) => {
+              return category?.id === item?.idCategory;
+            })[0];
+            console.log(categoryExtract);
+            return <CardSwiperItem item={item} index={index} category={categoryExtract} />;
           }}
         />
       </View>

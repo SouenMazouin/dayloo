@@ -5,7 +5,7 @@ import { MathView } from 'react-native-math-view';
 import { injectedStyle } from '../../shared/@types/types';
 import { ObjectToString } from './ObjectToString';
 
-export function tagParser(
+export default function tagParser(
   element: string,
   style: injectedStyle = {},
   mathStyle: injectedStyle = {},

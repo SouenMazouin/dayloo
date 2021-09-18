@@ -2,9 +2,9 @@ import React from 'react';
 import { Image, View } from 'react-native';
 import { injectedStyle } from '../../shared/@types/types';
 
-import { tagParser } from '../parsers/TagParser';
+import tagParser from '../parsers/TagParser';
 
-export function highlightTitleSelector(
+export default function highlightTitleSelector(
   highlightTitleContent: string,
   highlightTitleType: string,
   formulaStyle: injectedStyle,
@@ -34,7 +34,6 @@ export function highlightTitleSelector(
                 />
               </View>
             );
-
           default:
             return null;
         }
