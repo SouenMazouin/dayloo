@@ -20,11 +20,15 @@
     "@react-navigation/native": "^5.9.3",
     "@react-navigation/stack": "^5.14.3",
     "react": "16.13.1",
+    "react-devtools": "^4.11.0",
+    "react-jsx-parser": "^1.28.3",
     "react-native": "^0.64.0",
     "react-native-gesture-handler": "^1.10.3",
+    "react-native-image-viewing": "^0.2.0",
+    "react-native-math-view": "^3.8.2",
+    "react-native-reanimated": "^1.13.2",
     "react-native-safe-area-context": "^3.2.0",
     "react-native-screens": "^2.18.1",
-    "react-native-reanimated": "^1.13.2",
     "react-native-snap-carousel": "4.0.0-beta.6"
   },
   "devDependencies": {

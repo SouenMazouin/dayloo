@@ -1,8 +1,32 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
 
 const styles = StyleSheet.create({
   cardScrollView: {
     marginBottom: 10,
+  },
+  highlightTitleImage: {
+    flex: 1,
+    width: undefined,
+    height: undefined,
+    resizeMode: 'contain',
+    borderRadius: 5,
+  },
+  highlightTitleImageContainer: {
+    marginTop: 5,
+    marginBottom: 10,
+    width: windowWidth / 1.3,
+    height: windowHeight / 3.8,
+    alignSelf: 'center',
+    borderRadius: 5,
+  },
+  highlightTitleFormulaContainer: {
+    alignItems: 'center',
+    padding: 5,
+  },
+  highlightTitleFormula: {
+    width: 230,
   },
   item: {
     flex: 1,
@@ -21,11 +45,37 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginLeft: 6,
   },
-
-  textItem: {
-    marginTop: 5,
-    marginRight: 25,
-    marginLeft: 15,
+  leftLine: {
+    borderWidth: 1,
+    flexGrow: 1,
+    height: 0,
+  },
+  logoCategorie: {
+    width: 80,
+    height: 80,
+    margin: 10,
+    resizeMode: 'cover',
+  },
+  logoContainer: {
+    alignItems: 'center',
+    flexDirection: 'row',
+    marginTop: 8,
+  },
+  rightLine: {
+    borderWidth: 1,
+    flexGrow: 1,
+  },
+  title: {
+    fontSize: 25,
+    textAlign: 'center',
+    paddingBottom: 5,
+  },
+  titleContainer: {
+    alignItems: 'center',
+    marginTop: 0,
+  },
+  subtitle: {
+    marginBottom: 5,
   },
 });
 
