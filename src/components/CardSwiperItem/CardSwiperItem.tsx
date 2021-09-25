@@ -36,7 +36,7 @@ export default function CardSwiperItem({ item, category }: SwiperItemProps): JSX
         <View>
           {item.blocks.map((mappedBlocks, index) => {
             return mappedBlocks.type == 'table' ? (
-              <Text key={index}> {mappedBlocks.type}</Text>
+              tagParser(mappedBlocks.text, undefined, undefined, index)
             ) : (
               <Text key={index}>{mappedBlocks.type}</Text>
             );

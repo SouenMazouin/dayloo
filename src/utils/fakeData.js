@@ -55,10 +55,10 @@ export const fakeData = [
         },
       },
       {
-        text: "3 à 10 oeufs pour 4 mois d'incubation",
+        text: "<b>3 à 10</> pour 4 <i>mois</> <u>d'incubation</><m>{n \\choose k} p^k</m>",
         highlight: {
-          type: 'icon',
-          content: 'fas fa-baby',
+          type: 'equation',
+          content: '<m>P(E) = {n \\choose k} p^k\\</m>',
         },
         example: 'Reproduction',
         type: 'table',
@@ -117,8 +117,7 @@ export const fakeData = [
           type: 'formule',
           content: 'G',
         },
-        text:
-          'constante gravitationnelle qui vaut <m>6.67408 \\times 10^{-11} N cdot m^2 cdot kg^{-2}</m>',
+        text: 'constante gravitationnelle qui vaut <m>{n \\choose k} p^k</m>',
         example: 'La terre sur la lune',
       },
       {

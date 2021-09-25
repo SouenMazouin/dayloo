@@ -1,7 +1,10 @@
 import { injectedStyle } from '../../shared/@types/types';
 
-export function ObjectToString(obj: injectedStyle): string {
-  return Object.entries(obj)
-    .map(([k, v]) => `${k}: ${v}`)
-    .join(', ');
+export function ObjectStyleToString(obj: injectedStyle): string {
+  return (
+    Object.entries(obj)
+      // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
+      .map(([key, value]) => `${key}: ${value}`)
+      .join(', ')
+  );
 }
