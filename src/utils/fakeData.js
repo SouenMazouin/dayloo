@@ -55,7 +55,8 @@ export const fakeData = [
         },
       },
       {
-        text: "<b>3 à 10</> pour 4 <i>mois</> <u>d'incubation</><m>{n \\choose k} p^k</m>",
+        text:
+          '<b>bold</> text <i>italic</> text <m>{n \\choose k} p^k</m> text <u>underline</> text',
         highlight: {
           type: 'equation',
           content: '<m>P(E) = {n \\choose k} p^k\\</m>',

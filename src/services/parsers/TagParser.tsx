@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 import JsxParser from 'react-jsx-parser';
-import { MathView } from 'react-native-math-view';
+import MathView from 'react-native-math-view';
 import { injectedStyle } from '../../shared/@types/types';
 import { ObjectStyleToString } from './ObjectToString';
 
@@ -21,7 +21,7 @@ export default function tagParser(
     '<br>': '{"\\n"}',
     '</>': '</Text>',
     '<m>': `</Text><MathView style={{${parsedMathStyle}}} math="`,
-    '</m>': '"/><Text>',
+    '</m>': `"/><Text style={{${parsedStyle}}}>`,
   };
   const string = element;
   const replaceTags = string.replace(/<b>|<i>|<u>|<br>|<\/>|<m>|<\/m>/gi, function (matched) {
