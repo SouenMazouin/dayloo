@@ -1,4 +1,5 @@
-import React, { useRef } from 'react';
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+import React, { useRef, useState, useEffect } from 'react';
 import { View, SafeAreaView, Dimensions } from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 
@@ -7,12 +8,21 @@ import CardSwiperItem from '../CardSwiperItem/CardSwiperItem';
 import styles from './CardSwiper.style';
 
 // TODO: Injecting Data Categories from Firestore
-import { fakeData } from '../../utils/fakeData';
 import { fakeDataCategory } from '../../utils/fakeDataCategory';
+import { fetchFirestoreCards } from '../../services/firestore/FetchFirestoreCards';
+
+// TODO: Prise en charge des dates via calendrier
+// En fonction du jour selectionné (current compris)
+// Convertir le timestamp en string au format 'aaaa/mm/dd'
+// Puis setter cette variable avec la date au bon format
+
+const currentCalendarDate = '2021-01-15';
 
 export default function CardSwiper(): JSX.Element {
+  const cardsItem = fetchFirestoreCards(currentCalendarDate);
   const carouselRef = useRef(null);
   const windowWidth = Dimensions.get('window').width;
+
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.swiperContainer}>
@@ -20,7 +30,7 @@ export default function CardSwiper(): JSX.Element {
           vertical={false}
           layout={'default'}
           ref={carouselRef}
-          data={fakeData}
+          data={cardsItem}
           sliderWidth={300}
           itemWidth={windowWidth / 1.015}
           disableIntervalMomentum={true}

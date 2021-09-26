@@ -28,7 +28,6 @@ export default function tagParser(
     return mapElement[matched];
   });
   const renderString = `<Text style={{${parsedStyle}}}>${replaceTags}</Text>`;
-  console.log(renderString);
   const renderElement = (
     <View key={key} style={{ flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap' }}>
       <JsxParser
