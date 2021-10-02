@@ -4,8 +4,7 @@ import { View, SafeAreaView, Dimensions } from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 
 import CardSwiperItem from '../CardSwiperItem/CardSwiperItem';
-// TODO: Injecting Data Categories from Firestore
-import { fakeDataCategory } from '../../utils/fakeDataCategory';
+import { fetchFirestoreCategories } from '../../services/firestore/FetchFirestoreCategories';
 import { fetchFirestoreCards } from '../../services/firestore/FetchFirestoreCards';
 import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 import styles from './CardSwiper.style';
@@ -20,6 +19,7 @@ const currentCalendarDate = '2021-01-15';
 export default function CardSwiper(): JSX.Element {
   const windowWidth = Dimensions.get('window').width;
   const cardsItem = fetchFirestoreCards(currentCalendarDate);
+  const categories = fetchFirestoreCategories();
   const carouselRef = useRef(null);
 
   return (
@@ -34,7 +34,7 @@ export default function CardSwiper(): JSX.Element {
           itemWidth={windowWidth / 1.015}
           disableIntervalMomentum={true}
           renderItem={({ item, index }: SwiperItemProps) => {
-            const categoryExtract = fakeDataCategory.filter((category) => {
+            const categoryExtract = categories.filter((category) => {
               return category?.id === item?.idCategory;
             })[0];
             return <CardSwiperItem item={item} index={index} category={categoryExtract} />;

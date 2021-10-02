@@ -16,7 +16,7 @@ export default function CardSwiperItem({ item, category }: SwiperItemProps): JSX
           <Image
             style={[{ backgroundColor: category?.lightColor }, styles.logoCategorie]}
             resizeMode={'contain'}
-            source={logoCategorySelector(category?.logo)}
+            source={logoCategorySelector(category?.id)}
           />
           <View style={[{ borderColor: category?.lightColor }, styles.rightLine]} />
         </View>

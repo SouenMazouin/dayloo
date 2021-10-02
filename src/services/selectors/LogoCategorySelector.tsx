@@ -6,36 +6,37 @@ import formule from '../../assets/images/categories/formule.png';
 import geographie from '../../assets/images/categories/geographie.png';
 import grammaire from '../../assets/images/categories/grammaire.png';
 import histoire from '../../assets/images/categories/histoire.png';
-import iaBrain from '../../assets/images/categories/ia-cerveau.png';
 import ia from '../../assets/images/categories/ia.png';
 import invention from '../../assets/images/categories/invention.png';
 import litterature from '../../assets/images/categories/litterature.png';
 import spores from '../../assets/images/categories/taverne_des_spores.png';
 import vocabulaire from '../../assets/images/categories/vocabulaire.png';
 
-export default function logoCategorySelector(logo: string): ImageSourcePropType {
-  switch (logo) {
-    case 'animal.png':
+export default function logoCategorySelector(logoId: string): ImageSourcePropType {
+  switch (logoId) {
+    case 'animal':
       return animal;
-    case 'formule.png':
+    case 'dayloo_annonce':
+      return dayloo;
+    case 'formule':
       return formule;
-    case 'geographie.png':
+    case 'geographie':
       return geographie;
-    case 'grammaire.png':
+    case 'grammaire':
       return grammaire;
-    case 'histoire.png':
+    case 'histoire':
       return histoire;
-    case 'ia-cerveau.png':
-      return iaBrain;
-    case 'ia.png':
+    case 'ia_apprentissage':
       return ia;
-    case 'invention.png':
+    case 'invention':
       return invention;
-    case 'litterature.png':
+    case 'litterature':
       return litterature;
-    case 'taverne_des_spores.png':
+    case 'taverne_des_spores':
       return spores;
-    case 'vocabulaire.png':
+    case 'vocabulaire_hf':
+      return vocabulaire;
+    case 'vocabulaire_sf':
       return vocabulaire;
     default:
       return dayloo;

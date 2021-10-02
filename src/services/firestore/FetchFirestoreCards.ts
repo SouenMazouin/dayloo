@@ -7,7 +7,7 @@ import { ItemProps } from '../../shared/interfaces/cardSwiper';
 //      Si l'ID de la carte existe déjà dans le cache s'y référer,
 //      Sinon requêter Firestore
 
-export const fetchFirestoreCards = (currentCalendarDate: string): ItemProps => {
+export const fetchFirestoreCards = (currentCalendarDate: string): ItemProps[] => {
   const [cards, setCards] = useState<ItemProps[]>([]);
 
   useEffect(() => {
@@ -28,5 +28,5 @@ export const fetchFirestoreCards = (currentCalendarDate: string): ItemProps => {
     };
     fetchFirestore();
   }, []);
-  return cards as unknown as ItemProps;
+  return cards;
 };
