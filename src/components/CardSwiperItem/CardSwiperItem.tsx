@@ -1,11 +1,10 @@
 import React from 'react';
 import { View, ScrollView, Image, Text } from 'react-native';
 
-import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 import tagParser from '../../services/parsers/TagParser';
 import highlightTitleSelector from '../../services/selectors/HighlightTitleSelector';
 import logoCategorySelector from '../../services/selectors/LogoCategorySelector';
-
+import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 import styles from './CardSwiperItem.style';
 
 export default function CardSwiperItem({ item, category }: SwiperItemProps): JSX.Element {

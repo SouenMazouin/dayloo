@@ -1,8 +1,8 @@
 import React from 'react';
 import { Image, View } from 'react-native';
-import { injectedStyle } from '../../shared/@types/types';
 
 import tagParser from '../parsers/TagParser';
+import { injectedStyle } from '../../shared/@types/types';
 
 export default function highlightTitleSelector(
   highlightTitleContent: string,

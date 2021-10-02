@@ -1,7 +1,8 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import JsxParser from 'react-jsx-parser';
 import MathView from 'react-native-math-view';
+
 import { injectedStyle } from '../../shared/@types/types';
 import { ObjectStyleToString } from './ObjectToString';
 
@@ -29,7 +30,7 @@ export default function tagParser(
   });
   const renderString = `<Text style={{${parsedStyle}}}>${replaceTags}</Text>`;
   const renderElement = (
-    <View key={key} style={{ flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap' }}>
+    <View key={key} style={styles.renderContainer}>
       <JsxParser
         renderInWrapper={false}
         autoCloseVoidElements={true}
@@ -41,3 +42,11 @@ export default function tagParser(
   );
   return renderElement;
 }
+
+const styles = StyleSheet.create({
+  renderContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+  },
+});

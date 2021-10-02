@@ -1,15 +1,14 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef } from 'react';
 import { View, SafeAreaView, Dimensions } from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 
-import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 import CardSwiperItem from '../CardSwiperItem/CardSwiperItem';
-import styles from './CardSwiper.style';
-
 // TODO: Injecting Data Categories from Firestore
 import { fakeDataCategory } from '../../utils/fakeDataCategory';
 import { fetchFirestoreCards } from '../../services/firestore/FetchFirestoreCards';
+import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
+import styles from './CardSwiper.style';
 
 // TODO: Prise en charge des dates via calendrier
 // En fonction du jour selectionné (current compris)
@@ -19,12 +18,12 @@ import { fetchFirestoreCards } from '../../services/firestore/FetchFirestoreCard
 const currentCalendarDate = '2021-01-15';
 
 export default function CardSwiper(): JSX.Element {
+  const windowWidth = Dimensions.get('window').width;
   const cardsItem = fetchFirestoreCards(currentCalendarDate);
   const carouselRef = useRef(null);
-  const windowWidth = Dimensions.get('window').width;
 
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={styles.swiperSafeArea}>
       <View style={styles.swiperContainer}>
         <Carousel
           vertical={false}

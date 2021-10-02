@@ -1,13 +1,14 @@
 import { useState, useEffect } from 'react';
-
 import firestore from '@react-native-firebase/firestore';
+
+import { ItemProps } from '../../shared/interfaces/cardSwiper';
 
 //TODO: Mettre en cache les cartes deja consultés pour ne plus requeter le firestore en cas de retour en arrière
 //      Si l'ID de la carte existe déjà dans le cache s'y référer,
 //      Sinon requêter Firestore
 
-export const fetchFirestoreCards = (currentCalendarDate: string) => {
-  const [cards, setCards] = useState([]);
+export const fetchFirestoreCards = (currentCalendarDate: string): ItemProps => {
+  const [cards, setCards] = useState<ItemProps[]>([]);
 
   useEffect(() => {
     const fetchFirestore = () => {
@@ -16,16 +17,10 @@ export const fetchFirestoreCards = (currentCalendarDate: string) => {
         .where('id', '>=', currentCalendarDate)
         .where('id', '<=', currentCalendarDate + '\uf8ff')
         .onSnapshot((querySnapshot) => {
-          const cardsList = [];
+          const cardsList: ItemProps[] = [];
           querySnapshot.forEach((documentSnapshot) => {
-            const { idCategory, title, subtitle, highlight, blocks } = documentSnapshot.data();
             cardsList.push({
-              id: documentSnapshot.id,
-              idCategory,
-              title,
-              subtitle,
-              highlight,
-              blocks,
+              ...(documentSnapshot.data() as ItemProps),
             });
           });
           setCards(cardsList);
@@ -33,5 +28,5 @@ export const fetchFirestoreCards = (currentCalendarDate: string) => {
     };
     fetchFirestore();
   }, []);
-  return cards;
+  return cards as unknown as ItemProps;
 };

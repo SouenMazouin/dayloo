@@ -1,13 +1,13 @@
 # TODOlist
 
-- /!\ URGENT /!\ Finir d'implementer le LogoCategorySelector 
-- /!\ URGENT /!\ Continuer d'implémenter le CardSwiperItem en ajustant la requete Firestore dans la foulée
-- Attaquer l'implémentation du calendar
+- [x] Finir d'implementer le LogoCategorySelector 
+- [ ] /!\ URGENT /!\ Continuer d'implémenter le CardSwiperItem en ajustant la requete Firestore dans la foulée
+- [ ] Attaquer l'implémentation du calendar
 
 - Refacto
-    - /!\ URGENT /!\ S'occuper des typages au niveau du service Firestore 
-    - Check inlines styles
-    - Check Naming
-    - Check unused imports
+    - [x] S'occuper des typages au niveau du service Firestore 
+    - [x] Check inlines styles
+    - [x] Check Naming
+    - [X] Check unused imports
 
 - README
