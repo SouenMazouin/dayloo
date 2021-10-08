@@ -4,11 +4,12 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 25,
     textAlign: 'center',
-    paddingBottom: 5,
   },
   titleContainer: {
     alignItems: 'center',
     marginTop: 0,
+    paddingLeft: 5,
+    paddingRight: 5,
   },
   subtitle: {
     marginBottom: 5,

@@ -5,7 +5,7 @@ import logoCategorySelector from '../../services/selectors/LogoCategorySelector'
 import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 import styles from './styles/CardSwiperLogoHeader.style';
 
-export default function CardSwiperLogoHeader({ category }: SwiperItemProps): JSX.Element {
+function CardSwiperLogoHeader({ category }: SwiperItemProps): JSX.Element {
   return (
     <View style={styles.logoContainer}>
       <View style={[{ borderColor: category?.lightColor }, styles.leftLine]} />
@@ -18,3 +18,5 @@ export default function CardSwiperLogoHeader({ category }: SwiperItemProps): JSX
     </View>
   );
 }
+
+export default React.memo(CardSwiperLogoHeader);

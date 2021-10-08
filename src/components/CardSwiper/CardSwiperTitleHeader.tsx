@@ -5,7 +5,7 @@ import tagParser from '../../services/parsers/TagParser';
 import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 import styles from './styles/CardSwiperTitleHeader.style';
 
-export default function CardSwiperTitleHeader({ item }: SwiperItemProps): JSX.Element {
+function CardSwiperTitleHeader({ item }: SwiperItemProps): JSX.Element {
   return (
     <View style={styles.titleContainer}>
       {tagParser(item.title, styles.title)}
@@ -13,3 +13,5 @@ export default function CardSwiperTitleHeader({ item }: SwiperItemProps): JSX.El
     </View>
   );
 }
+
+export default React.memo(CardSwiperTitleHeader);

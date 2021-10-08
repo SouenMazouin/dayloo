@@ -5,7 +5,7 @@ import tagParser from '../../services/parsers/TagParser';
 import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 import styles from './styles/CardSwiperHighlightHeader.style';
 
-export default function CardSwiperHighlightHeader({ item }: SwiperItemProps): JSX.Element {
+function CardSwiperHighlightHeader({ item }: SwiperItemProps): JSX.Element {
   return (
     <View>
       {(() => {
@@ -35,3 +35,5 @@ export default function CardSwiperHighlightHeader({ item }: SwiperItemProps): JS
     </View>
   );
 }
+
+export default React.memo(CardSwiperHighlightHeader);

@@ -5,9 +5,9 @@ import tagParser from '../../services/parsers/TagParser';
 import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 import styles from './styles/CardSwiperBlocks.style';
 
-export default function CardSwiperBlocks({ item }: SwiperItemProps): JSX.Element {
+function CardSwiperBlocks({ item }: SwiperItemProps): JSX.Element {
   return (
-    <View>
+    <View style={styles.blocksContainer}>
       {item.blocks.map((mappedBlocks, index) => {
         return mappedBlocks.type == 'table' ? (
           <View key={index}>
@@ -24,3 +24,5 @@ export default function CardSwiperBlocks({ item }: SwiperItemProps): JSX.Element
     </View>
   );
 }
+
+export default React.memo(CardSwiperBlocks);

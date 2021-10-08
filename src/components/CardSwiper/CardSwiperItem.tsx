@@ -8,7 +8,7 @@ import styles from './styles/CardSwiperItem.style';
 import CardSwiperHighlightHeader from './CarSwiperHighlightHeader';
 import CardSwiperBlocks from './CardSwiperBlocks';
 
-export default function CardSwiperItem({ index, item, category }: SwiperItemProps): JSX.Element {
+function CardSwiperItem({ index, item, category }: SwiperItemProps): JSX.Element {
   return (
     <View style={styles.item}>
       <ScrollView style={styles.cardScrollView} persistentScrollbar={true}>
@@ -20,3 +20,5 @@ export default function CardSwiperItem({ index, item, category }: SwiperItemProp
     </View>
   );
 }
+
+export default React.memo(CardSwiperItem);
