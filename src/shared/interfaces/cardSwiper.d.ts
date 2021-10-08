@@ -10,6 +10,7 @@ export interface ItemProps {
   blocks: [
     { type: string; highlight: { type: string; content: string }; text: string; example: string },
   ];
+  source: string;
 }
 
 export interface CategoryProps {

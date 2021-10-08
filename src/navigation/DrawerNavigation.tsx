@@ -1,12 +1,10 @@
 import * as React from 'react';
-
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
 import CardsScreen from '../screens/CardsScreen';
+import ContactScreen from '../screens/ContactScreen';
 import LikesScreen from '../screens/LikesScreen';
 import ShopScreen from '../screens/ShopScreen';
-import ContactScreen from '../screens/ContactScreen';
-
 import DrawerMenu from '../components/DrawerMenu/DrawerMenu';
 
 export default function DrawerNavigation(): JSX.Element {

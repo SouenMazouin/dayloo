@@ -6,6 +6,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
   },
+  swiperSafeArea: {
+    flex: 1,
+  },
 });
 
 export default styles;
