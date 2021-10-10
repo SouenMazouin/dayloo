@@ -69,6 +69,16 @@
 		<string>Octicons.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>icomoon.ttf</string>
+		<string>icomoon.woff</string>
+		<string>ionicons.woff</string>
+		<string>ionicons.woff2</string>
+		<string>king-font.woff</string>
+		<string>primer-print.woff</string>
+		<string>Vegan.ttf</string>
+		<string>KingFont.ttf</string>
+		<string>PrimerPrint.ttf</string>
+		<string>PrimerPrintBold.ttf</string>
 	</array>
 </dict>
 </plist>

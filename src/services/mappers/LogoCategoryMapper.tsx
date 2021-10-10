@@ -11,8 +11,8 @@ import invention from '../../assets/images/categories/invention.png';
 import litterature from '../../assets/images/categories/litterature.png';
 import spores from '../../assets/images/categories/taverne_des_spores.png';
 import vocabulaire from '../../assets/images/categories/vocabulaire.png';
-
-export default function logoCategorySelector(logoId: string): ImageSourcePropType {
+// TODO: REFACTO
+export default function logoCategoryMapper(logoId: string): ImageSourcePropType {
   switch (logoId) {
     case 'animal':
       return animal;

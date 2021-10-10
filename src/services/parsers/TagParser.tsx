@@ -16,11 +16,11 @@ export default function tagParser(
   const parsedStyle = ObjectStyleToString(style);
 
   const mapElement: Dictionary<string> = {
-    '<b>': '<Text style={{fontWeight: "bold"}}>',
-    '<i>': '<Text style={{fontStyle: "italic"}}>',
-    '<u>': '<Text style={{textDecorationLine: "underline"}}>',
+    '<b>': '</Text><Text style={{fontWeight: "bold"}}>',
+    '<i>': '</Text><Text style={{fontStyle: "italic"}}>',
+    '<u>': '</Text><Text style={{textDecorationLine: "underline"}}>',
     '<br>': '{"\\n"}',
-    '</>': '</Text>',
+    '</>': `</Text><Text style={{${parsedStyle}}}>`,
     '<m>': `</Text><MathView style={{${parsedMathStyle}}} math="`,
     '</m>': `"/><Text style={{${parsedStyle}}}>`,
   };

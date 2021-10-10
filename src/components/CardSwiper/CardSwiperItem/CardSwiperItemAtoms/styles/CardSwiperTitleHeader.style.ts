@@ -1,18 +1,15 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  title: {
-    fontSize: 25,
-    textAlign: 'center',
-  },
   titleContainer: {
     alignItems: 'center',
     marginTop: 0,
-    paddingLeft: 5,
-    paddingRight: 5,
+    paddingLeft: 10,
+    paddingRight: 10,
   },
   subtitle: {
-    marginBottom: 5,
+    fontStyle: 'italic',
+    fontSize: 15,
   },
 });
 

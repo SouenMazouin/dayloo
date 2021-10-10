@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Image } from 'react-native';
 
-import tagParser from '../../services/parsers/TagParser';
-import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
+import tagParser from '../../../../services/parsers/TagParser';
+import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
 import styles from './styles/CardSwiperHighlightHeader.style';
 
 function CardSwiperHighlightHeader({ item }: SwiperItemProps): JSX.Element {

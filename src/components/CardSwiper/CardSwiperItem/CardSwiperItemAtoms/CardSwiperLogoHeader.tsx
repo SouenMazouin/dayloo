@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Image } from 'react-native';
 
-import logoCategorySelector from '../../services/selectors/LogoCategorySelector';
-import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
+import logoCategoryMapper from '../../../../services/mappers/LogoCategoryMapper';
+import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
 import styles from './styles/CardSwiperLogoHeader.style';
 
 function CardSwiperLogoHeader({ category }: SwiperItemProps): JSX.Element {
@@ -12,7 +12,7 @@ function CardSwiperLogoHeader({ category }: SwiperItemProps): JSX.Element {
       <Image
         style={[{ backgroundColor: category?.lightColor }, styles.logoCategorie]}
         resizeMode={'contain'}
-        source={logoCategorySelector(category.id)}
+        source={logoCategoryMapper(category?.id)}
       />
       <View style={[{ borderColor: category?.lightColor }, styles.rightLine]} />
     </View>

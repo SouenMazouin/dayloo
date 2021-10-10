@@ -1,13 +1,21 @@
 # TODOlist
 
-- [x] Finir d'implementer le LogoCategorySelector 
-- [ ] /!\ URGENT /!\ Continuer d'implémenter le CardSwiperItem en ajustant la requete Firestore dans la foulée
-- [ ] Attaquer l'implémentation du calendar
+- [ ] Meilleur gestion des styles d'Images (si possible: detection du channel alpha)
+- [ ] Continuer d'implémenter le CardSwiperItem en ajustant la requete Firestore dans la foulée
+- [ ] Implémentation du calendrier
+- [ ] Voir pour le splash-screen
+- [ ] Trouver solution pour la gestion des custom-fonts (italic & bold)
 
 - Refacto
-    - [x] S'occuper des typages au niveau du service Firestore 
-    - [x] Check inlines styles
-    - [x] Check Naming
-    - [X] Check unused imports
+    - [ ] Mappers: Trouver un moyen de virer les switch cases
+    - [ ] Check inlines styles
+    - [ ] Check Naming
+    - [ ] Check unused imports
+
+- Perfs: 
+    - [ ] Régler les erreur de requetes asynchrones (Can't perform a React state update on an unmounted component.)
+    - [ ] Gestion des images en cache
+    - [ ] Gestion des cartes en cache
+    - [ ] Ameliorer mémoization / plus de pure components
 
 - README

@@ -2,6 +2,8 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   cardScrollView: {
+    backgroundColor: 'white',
+    borderRadius: 3,
     marginBottom: 10,
   },
   item: {
@@ -15,9 +17,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.34,
     shadowRadius: 6.27,
     elevation: 10,
-    borderRadius: 5,
-    paddingTop: 3,
-    paddingBottom: 10,
+    borderRadius: 3,
     marginBottom: 10,
     marginTop: 10,
     marginLeft: 6,

@@ -3,11 +3,11 @@ import React, { useRef } from 'react';
 import { View, SafeAreaView, Dimensions } from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 
-import CardSwiperItem from './CardSwiperItem';
+import CardSwiperItem from './CardSwiperItem/CardSwiperItem';
 import { fetchFirestoreCategories } from '../../services/firestore/FetchFirestoreCategories';
 import { fetchFirestoreCards } from '../../services/firestore/FetchFirestoreCards';
 import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
-import styles from './styles/CardSwiper.style';
+import styles from './CardSwiper.style';
 
 // TODO: Prise en charge des dates via calendrier
 // En fonction du jour selectionné (current compris)
@@ -33,6 +33,7 @@ export default function CardSwiper(): JSX.Element {
           sliderWidth={300}
           itemWidth={windowWidth / 1.015}
           disableIntervalMomentum={true}
+          hasParallaxImages={true}
           renderItem={({ item, index }: SwiperItemProps) => {
             const categoryExtract = categories.filter((category) => {
               return category?.id === item?.idCategory;
