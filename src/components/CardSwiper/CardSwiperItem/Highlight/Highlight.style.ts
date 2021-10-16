@@ -27,11 +27,14 @@ const styles = StyleSheet.create({
     borderRadius: 2,
   },
   highlightTitleFormulaContainer: {
-    alignItems: 'center',
-    padding: 5,
+    resizeMode: 'cover',
+    paddingRight: 15,
+    paddingLeft: 15,
+    marginTop: 15,
   },
   highlightTitleFormula: {
-    width: 100,
+    padding: 15,
+    flex: 1,
   },
 });
 

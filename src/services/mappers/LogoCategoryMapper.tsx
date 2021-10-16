@@ -13,7 +13,7 @@ import taverne_des_spores from '../../assets/images/categories/taverne_des_spore
 import vocabulaire from '../../assets/images/categories/vocabulaire.png';
 
 // TODO: REFACTO
-export default function logoCategoryMapper(logoId: string): ImageSourcePropType {
+export default function logoCategoryMapper(logoId?: string): ImageSourcePropType {
   switch (logoId) {
     case 'animal':
       return animal;

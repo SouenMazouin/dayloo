@@ -8,8 +8,10 @@ const styles = StyleSheet.create({
     paddingRight: 10,
   },
   subtitle: {
+    marginTop: 3,
+    fontFamily: 'Comfortaa',
     fontStyle: 'italic',
-    fontSize: 15,
+    fontSize: 14,
   },
 });
 

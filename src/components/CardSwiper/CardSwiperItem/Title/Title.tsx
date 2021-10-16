@@ -4,16 +4,17 @@ import {} from 'react-native-svg';
 
 import tagParser from '../../../../services/parsers/TagParser';
 import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
-import styles from './styles/CardSwiperTitleHeader.style';
+import styles from './Title.style';
 
-function CardSwiperTitleHeader({ item, category }: SwiperItemProps): JSX.Element {
+function Title({ item, category }: SwiperItemProps): JSX.Element {
   return (
     <View style={styles.titleContainer}>
       {tagParser(item.title, {
         color: category?.lightColor,
-        fontSize: 43,
+        fontSize: 41,
         textAlign: 'center',
-        fontFamily: 'PrimerPrintBold',
+        fontFamily: 'PrimerPrint',
+        fontWeight: 'bold',
         lineHeight: 39,
       })}
       {item.subtitle != '' ? tagParser(item.subtitle, styles.subtitle) : <></>}
@@ -21,4 +22,4 @@ function CardSwiperTitleHeader({ item, category }: SwiperItemProps): JSX.Element
   );
 }
 
-export default React.memo(CardSwiperTitleHeader);
+export default React.memo(Title);

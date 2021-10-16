@@ -25,6 +25,6 @@ export interface CategoryProps {
 
 export interface SwiperItemProps {
   item: ItemProps;
-  index: number;
-  category: CategoryProps;
+  index?: number;
+  category?: CategoryProps;
 }

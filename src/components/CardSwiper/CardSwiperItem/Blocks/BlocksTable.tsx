@@ -4,11 +4,11 @@ import { Image, View } from 'react-native';
 import tagParser from '../../../../services/parsers/TagParser';
 import blocksIconMapper from '../../../../services/mappers/BlocksIconsMapper';
 import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
-import styles from './styles/CardSwiperBlocks.style';
-// TODO: REFACTO
-function CardSwiperBlocks({ item }: SwiperItemProps): JSX.Element {
+import styles from './BlocksTable.style';
+
+function BlocksTable({ item }: SwiperItemProps): JSX.Element {
   return (
-    <View style={styles.blocksContainer}>
+    <>
       {item.blocks.map((mappedBlocks, index) => {
         return mappedBlocks.type == 'table' ? (
           <View key={index}>
@@ -19,7 +19,7 @@ function CardSwiperBlocks({ item }: SwiperItemProps): JSX.Element {
                   source={blocksIconMapper(mappedBlocks.highlight.content)}
                 />
                 <View style={styles.blockTableContainer}>
-                  {tagParser(mappedBlocks.text, styles.blockText)}
+                  {tagParser(mappedBlocks.text, styles.blockText, styles.blockMath)}
                   {mappedBlocks.example != '' ? (
                     tagParser(mappedBlocks.example, styles.blockExample)
                   ) : (
@@ -42,18 +42,11 @@ function CardSwiperBlocks({ item }: SwiperItemProps): JSX.Element {
             )}
           </View>
         ) : (
-          <View style={styles.paragraphBlockContainer} key={index}>
-            {tagParser(mappedBlocks.text, styles.paragraphBlockText)}
-            {mappedBlocks.example != '' ? (
-              tagParser(mappedBlocks.example, styles.paragraphBlockExample)
-            ) : (
-              <></>
-            )}
-          </View>
+          <View key={index}></View>
         );
       })}
-    </View>
+    </>
   );
 }
 
-export default React.memo(CardSwiperBlocks);
+export default React.memo(BlocksTable);

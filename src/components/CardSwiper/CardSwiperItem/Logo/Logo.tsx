@@ -3,9 +3,9 @@ import { View, Image } from 'react-native';
 
 import logoCategoryMapper from '../../../../services/mappers/LogoCategoryMapper';
 import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
-import styles from './styles/CardSwiperLogoHeader.style';
+import styles from './Logo.style';
 
-function CardSwiperLogoHeader({ category }: SwiperItemProps): JSX.Element {
+function Logo({ category }: SwiperItemProps): JSX.Element {
   return (
     <View style={styles.logoContainer}>
       <View style={[{ borderColor: category?.lightColor }, styles.leftLine]} />
@@ -19,4 +19,4 @@ function CardSwiperLogoHeader({ category }: SwiperItemProps): JSX.Element {
   );
 }
 
-export default React.memo(CardSwiperLogoHeader);
+export default React.memo(Logo);

@@ -3,9 +3,9 @@ import { View, Image } from 'react-native';
 
 import tagParser from '../../../../services/parsers/TagParser';
 import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
-import styles from './styles/CardSwiperHighlightHeader.style';
+import styles from './Highlight.style';
 
-function CardSwiperHighlightHeader({ item }: SwiperItemProps): JSX.Element {
+function Highlight({ item }: SwiperItemProps): JSX.Element {
   return (
     <View>
       {(() => {
@@ -36,4 +36,4 @@ function CardSwiperHighlightHeader({ item }: SwiperItemProps): JSX.Element {
   );
 }
 
-export default React.memo(CardSwiperHighlightHeader);
+export default React.memo(Highlight);
