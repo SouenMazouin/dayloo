@@ -79,6 +79,14 @@
 		<string>KingFont.ttf</string>
 		<string>PrimerPrint.ttf</string>
 		<string>PrimerPrintBold.ttf</string>
+		<string>PrimerPrintItalic.ttf</string>
+		<string>PrimerPrintTest.ttf</string>
+		<string>KingFontItalic.ttf</string>
+		<string>ComfortaaBold.ttf</string>
+		<string>ComfortaaRegular.ttf</string>
+		<string>ComfortaaRegularItalic.ttf</string>
+		<string>KingFontBold.ttf</string>
+		<string>ComfortaaItalic.ttf</string>
 	</array>
 </dict>
 </plist>

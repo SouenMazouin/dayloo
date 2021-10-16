@@ -1,6 +1,5 @@
 # TODOlist
 
-- [ ] Meilleur gestion des styles d'Images (si possible: detection du channel alpha)
 - [ ] Continuer d'implémenter le CardSwiperItem en ajustant la requete Firestore dans la foulée
 - [ ] Implémentation du calendrier
 - [ ] Voir pour le splash-screen
@@ -13,9 +12,13 @@
     - [ ] Check unused imports
 
 - Perfs: 
-    - [ ] Régler les erreur de requetes asynchrones (Can't perform a React state update on an unmounted component.)
+    - [ ] Régler les erreur de requetes asynchrones "Can't perform a React state update on an unmounted component." (Commencer par trouver comment reproduire l'erreur a la volée)
     - [ ] Gestion des images en cache
     - [ ] Gestion des cartes en cache
-    - [ ] Ameliorer mémoization / plus de pure components
+    - [ ] Ameliorer mémoization / pure components
+    - [ ] Ameliorer perfs du CardSwiper (voir doc repo de la lib, section perfs)
+
+- Docs:
+    - [ ] MAJ doc tagParser
 
 - README

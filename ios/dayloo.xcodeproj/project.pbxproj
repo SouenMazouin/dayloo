@@ -39,6 +39,14 @@
 		B94BDC6BC8424B5BB7493F51 /* KingFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47574B94849A47FCBEC3A167 /* KingFont.ttf */; };
 		EFE5391F95AA40B3AC67A437 /* PrimerPrint.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12F7ACC652FD44B4ACAA3C29 /* PrimerPrint.ttf */; };
 		DD6545C923A346F5976523BA /* PrimerPrintBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08FC6B49AC7241CCBB70B941 /* PrimerPrintBold.ttf */; };
+		22E9F5F1A0EC49308044AE8B /* PrimerPrintItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 357D3D18C31B4425A6FF7204 /* PrimerPrintItalic.ttf */; };
+		B816EBADB3674DFA8C4C10B6 /* PrimerPrintTest.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3231FA15336416583125B7F /* PrimerPrintTest.ttf */; };
+		7A14A7B9F9924F6893A53927 /* KingFontItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14F31DC95E2045EF8CCD20D9 /* KingFontItalic.ttf */; };
+		270E723944164B669A1E3279 /* ComfortaaBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92EA4D7BC3014F8EB157EA5D /* ComfortaaBold.ttf */; };
+		BA09F4BF68244EF7BDF4D4CF /* ComfortaaRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E212BECE9DBB4109B9DF111A /* ComfortaaRegular.ttf */; };
+		716417C16C8F480B830506F4 /* ComfortaaRegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B9DD5445BB34F3D86C2208C /* ComfortaaRegularItalic.ttf */; };
+		B85463067B0C4D11A12BD046 /* KingFontBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1B27E054F4B8BAC62E146 /* KingFontBold.ttf */; };
+		DB65B4AB3EBE49D888DA0036 /* ComfortaaItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 341C660247824E2591146FB9 /* ComfortaaItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +98,14 @@
 		47574B94849A47FCBEC3A167 /* KingFont.ttf */ = {isa = PBXFileReference; name = "KingFont.ttf"; path = "../src/assets/fonts/KingFont.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		12F7ACC652FD44B4ACAA3C29 /* PrimerPrint.ttf */ = {isa = PBXFileReference; name = "PrimerPrint.ttf"; path = "../src/assets/fonts/PrimerPrint.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		08FC6B49AC7241CCBB70B941 /* PrimerPrintBold.ttf */ = {isa = PBXFileReference; name = "PrimerPrintBold.ttf"; path = "../src/assets/fonts/PrimerPrintBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		357D3D18C31B4425A6FF7204 /* PrimerPrintItalic.ttf */ = {isa = PBXFileReference; name = "PrimerPrintItalic.ttf"; path = "../src/assets/fonts/PrimerPrintItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3231FA15336416583125B7F /* PrimerPrintTest.ttf */ = {isa = PBXFileReference; name = "PrimerPrintTest.ttf"; path = "../src/assets/fonts/PrimerPrintTest.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14F31DC95E2045EF8CCD20D9 /* KingFontItalic.ttf */ = {isa = PBXFileReference; name = "KingFontItalic.ttf"; path = "../src/assets/fonts/KingFontItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92EA4D7BC3014F8EB157EA5D /* ComfortaaBold.ttf */ = {isa = PBXFileReference; name = "ComfortaaBold.ttf"; path = "../src/assets/fonts/ComfortaaBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E212BECE9DBB4109B9DF111A /* ComfortaaRegular.ttf */ = {isa = PBXFileReference; name = "ComfortaaRegular.ttf"; path = "../src/assets/fonts/ComfortaaRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6B9DD5445BB34F3D86C2208C /* ComfortaaRegularItalic.ttf */ = {isa = PBXFileReference; name = "ComfortaaRegularItalic.ttf"; path = "../src/assets/fonts/ComfortaaRegularItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3FD1B27E054F4B8BAC62E146 /* KingFontBold.ttf */ = {isa = PBXFileReference; name = "KingFontBold.ttf"; path = "../src/assets/fonts/KingFontBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		341C660247824E2591146FB9 /* ComfortaaItalic.ttf */ = {isa = PBXFileReference; name = "ComfortaaItalic.ttf"; path = "../src/assets/fonts/ComfortaaItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +225,14 @@
 				47574B94849A47FCBEC3A167 /* KingFont.ttf */,
 				12F7ACC652FD44B4ACAA3C29 /* PrimerPrint.ttf */,
 				08FC6B49AC7241CCBB70B941 /* PrimerPrintBold.ttf */,
+				357D3D18C31B4425A6FF7204 /* PrimerPrintItalic.ttf */,
+				D3231FA15336416583125B7F /* PrimerPrintTest.ttf */,
+				14F31DC95E2045EF8CCD20D9 /* KingFontItalic.ttf */,
+				92EA4D7BC3014F8EB157EA5D /* ComfortaaBold.ttf */,
+				E212BECE9DBB4109B9DF111A /* ComfortaaRegular.ttf */,
+				6B9DD5445BB34F3D86C2208C /* ComfortaaRegularItalic.ttf */,
+				3FD1B27E054F4B8BAC62E146 /* KingFontBold.ttf */,
+				341C660247824E2591146FB9 /* ComfortaaItalic.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -331,6 +355,14 @@
 				B94BDC6BC8424B5BB7493F51 /* KingFont.ttf in Resources */,
 				EFE5391F95AA40B3AC67A437 /* PrimerPrint.ttf in Resources */,
 				DD6545C923A346F5976523BA /* PrimerPrintBold.ttf in Resources */,
+				22E9F5F1A0EC49308044AE8B /* PrimerPrintItalic.ttf in Resources */,
+				B816EBADB3674DFA8C4C10B6 /* PrimerPrintTest.ttf in Resources */,
+				7A14A7B9F9924F6893A53927 /* KingFontItalic.ttf in Resources */,
+				270E723944164B669A1E3279 /* ComfortaaBold.ttf in Resources */,
+				BA09F4BF68244EF7BDF4D4CF /* ComfortaaRegular.ttf in Resources */,
+				716417C16C8F480B830506F4 /* ComfortaaRegularItalic.ttf in Resources */,
+				B85463067B0C4D11A12BD046 /* KingFontBold.ttf in Resources */,
+				DB65B4AB3EBE49D888DA0036 /* ComfortaaItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

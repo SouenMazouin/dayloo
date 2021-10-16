@@ -10,10 +10,11 @@ function CardSwiperTitleHeader({ item, category }: SwiperItemProps): JSX.Element
   return (
     <View style={styles.titleContainer}>
       {tagParser(item.title, {
-        color: category.lightColor,
-        fontSize: 50,
+        color: category?.lightColor,
+        fontSize: 43,
         textAlign: 'center',
         fontFamily: 'PrimerPrintBold',
+        lineHeight: 39,
       })}
       {item.subtitle != '' ? tagParser(item.subtitle, styles.subtitle) : <></>}
     </View>

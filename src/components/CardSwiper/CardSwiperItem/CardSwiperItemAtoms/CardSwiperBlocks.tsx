@@ -11,21 +11,14 @@ function CardSwiperBlocks({ item }: SwiperItemProps): JSX.Element {
     <View style={styles.blocksContainer}>
       {item.blocks.map((mappedBlocks, index) => {
         return mappedBlocks.type == 'table' ? (
-          <View
-            style={{
-              flexDirection: 'row',
-              alignItems: 'center',
-              paddingLeft: 30,
-              paddingBottom: 12,
-            }}
-            key={index}>
+          <View key={index}>
             {mappedBlocks.highlight.type == 'icon' ? (
-              <>
+              <View style={styles.blocksSubContainers}>
                 <Image
-                  style={{ height: 25, width: 25 }}
+                  style={styles.icons}
                   source={blocksIconMapper(mappedBlocks.highlight.content)}
                 />
-                <View style={{ paddingLeft: 25 }}>
+                <View style={styles.blockTableContainer}>
                   {tagParser(mappedBlocks.text, styles.blockText)}
                   {mappedBlocks.example != '' ? (
                     tagParser(mappedBlocks.example, styles.blockExample)
@@ -33,11 +26,11 @@ function CardSwiperBlocks({ item }: SwiperItemProps): JSX.Element {
                     <></>
                   )}
                 </View>
-              </>
+              </View>
             ) : (
-              <>
+              <View style={styles.blocksSubContainers}>
                 {tagParser(mappedBlocks.highlight.content)}
-                <View style={{ paddingLeft: 25 }}>
+                <View style={styles.blockTableContainer}>
                   {tagParser(mappedBlocks.text)}
                   {mappedBlocks.example != '' ? (
                     tagParser(mappedBlocks.example, styles.blockExample)
@@ -45,11 +38,11 @@ function CardSwiperBlocks({ item }: SwiperItemProps): JSX.Element {
                     <></>
                   )}
                 </View>
-              </>
+              </View>
             )}
           </View>
         ) : (
-          <View style={{ paddingLeft: 20, paddingBottom: 15 }} key={index}>
+          <View style={ styles.paragraphBlockContainer } key={index}>
             {tagParser(mappedBlocks.text, styles.paragraphBlockText)}
             {mappedBlocks.example != '' ? (
               tagParser(mappedBlocks.example, styles.paragraphBlockExample)

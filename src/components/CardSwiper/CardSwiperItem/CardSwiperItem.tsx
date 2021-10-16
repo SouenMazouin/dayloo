@@ -13,24 +13,6 @@ function CardSwiperItem({ index, item, category }: SwiperItemProps): JSX.Element
   return (
     <View style={styles.item}>
       <ScrollView style={styles.cardScrollView} persistentScrollbar={true}>
-        {/* <View
-          key={'inside-parser'}
-          style={{
-            flexDirection: 'row',
-            flexWrap: 'wrap',
-            alignItems: 'center',
-            paddingLeft: 150,
-            borderColor: 'green',
-            borderWidth: 1,
-          }}>
-          <Text> oeufs </Text>
-          <MathView style={{}} math="{n \choose k} p^k" />
-          <Text style={{ fontWeight: 'bold', backgroundColor: 'grey' }}>pour </Text>
-          <Text>4 </Text>
-          <Text style={{ textDecorationLine: 'underline', backgroundColor: 'red' }}>mois</Text>
-          <Text style={{ fontStyle: 'italic', backgroundColor: 'grey' }}> d'incubation</Text>
-        </View> */}
-
         <CardSwiperLogoHeader index={index} item={item} category={category} />
         <CardSwiperTitleHeader index={index} item={item} category={category} />
         <CardSwiperHighlightHeader index={index} item={item} category={category} />
