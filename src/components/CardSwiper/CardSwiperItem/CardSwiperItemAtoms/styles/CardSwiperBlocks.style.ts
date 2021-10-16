@@ -43,7 +43,8 @@ const styles = StyleSheet.create({
   paragraphBlockExample: {
     paddingLeft: 15,
     lineHeight: 20,
-    fontFamily: 'ComfortaaRegular',
+    fontFamily: 'Comfortaa',
+    fontStyle: 'italic',
     color: '#808080',
   },
 });

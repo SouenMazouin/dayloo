@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+import com.facebook.react.views.text.ReactFontManager;
 import io.autodidact.rnmathview.RNMathViewPackage;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
@@ -46,6 +47,9 @@ public class MainApplication extends Application implements ReactApplication {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
     initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
+    ReactFontManager.getInstance().addCustomFont(this, "Comfortaa", R.font.comfortaa);
+    ReactFontManager.getInstance().addCustomFont(this, "KingFont", R.font.kingfont);
+    ReactFontManager.getInstance().addCustomFont(this, "PrimerPrint", R.font.primerprint);
   }
 
   /**

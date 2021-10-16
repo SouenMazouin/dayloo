@@ -42,7 +42,7 @@ function CardSwiperBlocks({ item }: SwiperItemProps): JSX.Element {
             )}
           </View>
         ) : (
-          <View style={ styles.paragraphBlockContainer } key={index}>
+          <View style={styles.paragraphBlockContainer} key={index}>
             {tagParser(mappedBlocks.text, styles.paragraphBlockText)}
             {mappedBlocks.example != '' ? (
               tagParser(mappedBlocks.example, styles.paragraphBlockExample)
