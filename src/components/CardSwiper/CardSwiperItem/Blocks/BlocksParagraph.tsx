@@ -5,7 +5,7 @@ import tagParser from '../../../../services/parsers/TagParser';
 import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
 import styles from './BlocksPragraph.style';
 
-function BlocksParagraph({ item }: SwiperItemProps): JSX.Element {
+const BlocksParagraph = ({ item }: SwiperItemProps): JSX.Element => {
   return (
     <>
       {item.blocks.map((mappedBlocks, index) => {
@@ -24,6 +24,6 @@ function BlocksParagraph({ item }: SwiperItemProps): JSX.Element {
       })}
     </>
   );
-}
+};
 
 export default React.memo(BlocksParagraph);

@@ -5,7 +5,7 @@ import logoCategoryMapper from '../../../../services/mappers/LogoCategoryMapper'
 import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
 import styles from './Logo.style';
 
-function Logo({ category }: SwiperItemProps): JSX.Element {
+const Logo = ({ category }: SwiperItemProps): JSX.Element => {
   return (
     <View style={styles.logoContainer}>
       <View style={[{ borderColor: category?.lightColor }, styles.leftLine]} />
@@ -17,6 +17,6 @@ function Logo({ category }: SwiperItemProps): JSX.Element {
       <View style={[{ borderColor: category?.lightColor }, styles.rightLine]} />
     </View>
   );
-}
+};
 
 export default React.memo(Logo);

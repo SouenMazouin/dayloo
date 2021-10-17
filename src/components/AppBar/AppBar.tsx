@@ -5,10 +5,12 @@ import { StackHeaderProps } from '@react-navigation/stack';
 
 import styles from './AppBar.style';
 
-export default function AppBar(props: StackHeaderProps): JSX.Element {
+const AppBar = (props: StackHeaderProps): JSX.Element => {
   return (
     <View style={styles.appBarContainer}>
       <Button title="menu" onPress={() => props.navigation.dispatch(DrawerActions.openDrawer())} />
     </View>
   );
-}
+};
+
+export default AppBar;

@@ -9,9 +9,7 @@ import {
 
 import styles from './DrawerMenu.style';
 
-export default function DrawerMenu(
-  props: DrawerContentComponentProps<DrawerContentOptions>,
-): JSX.Element {
+const DrawerMenu = (props: DrawerContentComponentProps<DrawerContentOptions>): JSX.Element => {
   return (
     <DrawerContentScrollView {...props}>
       <View style={styles.headerContainer}>
@@ -22,4 +20,6 @@ export default function DrawerMenu(
       <DrawerItemList {...props} />
     </DrawerContentScrollView>
   );
-}
+};
+
+export default React.memo(DrawerMenu);

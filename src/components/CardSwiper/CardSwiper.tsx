@@ -4,7 +4,6 @@ import { View, SafeAreaView, Dimensions } from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 
 import CardSwiperItem from './CardSwiperItem/CardSwiperItem';
-import { fetchFirestoreCategories } from '../../services/firestore/FetchFirestoreCategories';
 import { fetchFirestoreCards } from '../../services/firestore/FetchFirestoreCards';
 import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
 import styles from './CardSwiper.style';
@@ -16,10 +15,9 @@ import styles from './CardSwiper.style';
 
 const currentCalendarDate = '';
 
-export default function CardSwiper(): JSX.Element {
+const CardSwiper = (): JSX.Element => {
   const windowWidth = Dimensions.get('window').width;
   const cardsItem = fetchFirestoreCards(currentCalendarDate);
-  const categories = fetchFirestoreCategories();
   const carouselRef = useRef(null);
 
   return (
@@ -33,15 +31,13 @@ export default function CardSwiper(): JSX.Element {
           sliderWidth={300}
           itemWidth={windowWidth / 1.015}
           disableIntervalMomentum={true}
-          hasParallaxImages={true}
           renderItem={({ item, index }: SwiperItemProps) => {
-            const categoryExtract = categories.filter((category) => {
-              return category?.id === item?.idCategory;
-            })[0];
-            return <CardSwiperItem item={item} index={index} category={categoryExtract} />;
+            return <CardSwiperItem item={item} index={index} />;
           }}
         />
       </View>
     </SafeAreaView>
   );
-}
+};
+
+export default React.memo(CardSwiper);

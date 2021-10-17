@@ -6,7 +6,7 @@ import blocksIconMapper from '../../../../services/mappers/BlocksIconsMapper';
 import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
 import styles from './BlocksTable.style';
 
-function BlocksTable({ item }: SwiperItemProps): JSX.Element {
+const BlocksTable = ({ item }: SwiperItemProps): JSX.Element => {
   return (
     <>
       {item.blocks.map((mappedBlocks, index) => {
@@ -47,6 +47,6 @@ function BlocksTable({ item }: SwiperItemProps): JSX.Element {
       })}
     </>
   );
-}
+};
 
 export default React.memo(BlocksTable);

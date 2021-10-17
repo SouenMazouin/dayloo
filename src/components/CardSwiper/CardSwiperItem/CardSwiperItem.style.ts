@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  cardScrollView: {
+  cardScrollFlatlist: {
     backgroundColor: 'white',
     borderRadius: 3,
     marginBottom: 10,
