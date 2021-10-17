@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import DrawerNavigation from './DrawerNavigation';
 import AppBar from '../components/AppBar/AppBar';
 
-export default function RootStackNavigation(): JSX.Element {
+const RootStackNavigation = (): JSX.Element => {
   const Stack = createStackNavigator();
   return (
     <NavigationContainer>
@@ -18,4 +18,6 @@ export default function RootStackNavigation(): JSX.Element {
       </Stack.Navigator>
     </NavigationContainer>
   );
-}
+};
+
+export default RootStackNavigation;

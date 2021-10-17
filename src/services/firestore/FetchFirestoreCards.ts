@@ -9,23 +9,22 @@ import { ItemProps } from '../../shared/interfaces/cardSwiper';
 
 export const fetchFirestoreCards = (currentCalendarDate: string): ItemProps[] => {
   const [cards, setCards] = useState<ItemProps[]>([]);
-
-  useEffect(() => {
-    const fetchFirestore = () => {
-      firestore()
-        .collection('liste_fiches_2')
-        .where('id', '>=', currentCalendarDate)
-        .where('id', '<=', currentCalendarDate + '\uf8ff')
-        .onSnapshot((querySnapshot) => {
-          const cardsList: ItemProps[] = [];
-          querySnapshot.forEach((documentSnapshot) => {
-            cardsList.push({
-              ...(documentSnapshot.data() as ItemProps),
-            });
+  const fetchFirestore = () => {
+    firestore()
+      .collection('liste_fiches_2')
+      .where('id', '>=', currentCalendarDate)
+      .where('id', '<=', currentCalendarDate + '\uf8ff')
+      .onSnapshot((querySnapshot) => {
+        const cardsList: ItemProps[] = [];
+        querySnapshot.forEach((documentSnapshot) => {
+          cardsList.push({
+            ...(documentSnapshot.data() as ItemProps),
           });
-          setCards(cardsList);
         });
-    };
+        setCards(cardsList);
+      });
+  };
+  useEffect(() => {
     fetchFirestore();
   }, []);
   return cards;

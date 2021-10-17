@@ -16,11 +16,11 @@ export default function tagParser(
   const parsedStyle = ObjectStyleToString(style);
 
   const mapElement: Dictionary<string> = {
-    '<b>': '<Text style={{fontWeight: "bold"}}>',
-    '<i>': '<Text style={{fontStyle: "italic"}}>',
-    '<u>': '<Text style={{textDecorationLine: "underline"}}>',
+    '<b>': `</Text><Text style={{fontWeight: "bold", ${parsedStyle}}}>`,
+    '<i>': `</Text><Text style={{fontStyle: "italic", ${parsedStyle}}}>`,
+    '<u>': `</Text><Text style={{textDecorationLine: "underline", ${parsedStyle}}}>`,
     '<br>': '{"\\n"}',
-    '</>': '</Text>',
+    '</>': `</Text><Text style={{${parsedStyle}}}>`,
     '<m>': `</Text><MathView style={{${parsedMathStyle}}} math="`,
     '</m>': `"/><Text style={{${parsedStyle}}}>`,
   };
@@ -30,17 +30,27 @@ export default function tagParser(
   });
   const renderString = `<Text style={{${parsedStyle}}}>${replaceTags}</Text>`;
   const renderElement = (
-    <View key={key} style={styles.renderContainer}>
-      <JsxParser
-        renderInWrapper={false}
-        autoCloseVoidElements={true}
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-        components={{ Text, MathView }}
-        jsx={renderString}
-      />
-    </View>
+    <JsxParser
+      renderInWrapper={false}
+      autoCloseVoidElements={true}
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+      components={{ Text, MathView }}
+      jsx={renderString}
+    />
   );
-  return renderElement;
+  if (renderString.includes('MathView')) {
+    return (
+      <View key={key} style={[styles.renderContainer, { paddingRight: 5 }]}>
+        {renderElement}
+      </View>
+    );
+  } else {
+    return (
+      <View key={key} style={styles.renderContainer}>
+        <Text style={style}>{renderElement}</Text>
+      </View>
+    );
+  }
 }
 
 const styles = StyleSheet.create({

@@ -7,7 +7,7 @@ import LikesScreen from '../screens/LikesScreen';
 import ShopScreen from '../screens/ShopScreen';
 import DrawerMenu from '../components/DrawerMenu/DrawerMenu';
 
-export default function DrawerNavigation(): JSX.Element {
+const DrawerNavigation = (): JSX.Element => {
   const Drawer = createDrawerNavigator();
   return (
     <Drawer.Navigator drawerContent={(props) => <DrawerMenu {...props} />}>
@@ -17,4 +17,6 @@ export default function DrawerNavigation(): JSX.Element {
       <Drawer.Screen name="ContactScreen">{() => <ContactScreen />}</Drawer.Screen>
     </Drawer.Navigator>
   );
-}
+};
+
+export default React.memo(DrawerNavigation);
