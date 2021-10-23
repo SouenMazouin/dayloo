@@ -7,27 +7,21 @@ import Title from './Title/Title';
 import Highlight from './Highlight/Highlight';
 import Blocks from './Blocks/Blocks';
 import { SwiperItemProps } from '../../../shared/interfaces/cardSwiper';
-import { fetchFirestoreCategories } from '../../../services/firestore/FetchFirestoreCategories';
 import styles from './CardSwiperItem.style';
 
-const CardSwiperItem = ({ index, item }: SwiperItemProps): JSX.Element => {
-  const categories = fetchFirestoreCategories();
-
+const CardSwiperItem = ({ index, item, category }: SwiperItemProps): JSX.Element => {
   return (
     <SafeAreaView style={styles.item}>
       <FlatList
         style={styles.cardScrollFlatlist}
         data={[item]}
         renderItem={({ item }: SwiperItemProps): JSX.Element => {
-          const categoryExtract = categories.filter((category) => {
-            return category?.id === item?.idCategory;
-          })[0];
           return (
             <View>
-              <Logo index={index} item={item} category={categoryExtract} />
-              <Title index={index} item={item} category={categoryExtract} />
-              <Highlight index={index} item={item} category={categoryExtract} />
-              <Blocks index={index} item={item} category={categoryExtract} />
+              <Logo index={index} item={item} category={category} />
+              <Title index={index} item={item} category={category} />
+              <Highlight index={index} item={item} category={category} />
+              <Blocks index={index} item={item} category={category} />
             </View>
           );
         }}

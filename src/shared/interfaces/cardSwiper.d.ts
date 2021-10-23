@@ -11,6 +11,7 @@ export interface ItemProps {
     { type: string; highlight: { type: string; content: string }; text: string; example: string },
   ];
   source: string;
+  isLoading?: boolean;
 }
 
 export interface CategoryProps {

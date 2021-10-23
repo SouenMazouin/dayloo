@@ -2,6 +2,7 @@ import { ImageSourcePropType } from 'react-native';
 
 import animal from '../../assets/images/categories/animal.png';
 import dayloo_annonce from '../../assets/images/categories/dayloo.png';
+import default_logo from '../../assets/images/categories/default.png';
 import formule from '../../assets/images/categories/formule.png';
 import geographie from '../../assets/images/categories/geographie.png';
 import grammaire from '../../assets/images/categories/grammaire.png';
@@ -40,6 +41,6 @@ export default function logoCategoryMapper(logoId?: string): ImageSourcePropType
     case 'vocabulaire_sf':
       return vocabulaire;
     default:
-      return dayloo_annonce;
+      return default_logo;
   }
 }
