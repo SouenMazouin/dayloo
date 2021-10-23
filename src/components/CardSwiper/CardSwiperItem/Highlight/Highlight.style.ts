@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
   },
   highlightTitleImage: {
     ...StyleSheet.absoluteFillObject,
-    resizeMode: 'cover',
     borderRadius: 2,
   },
   highlightTitleFormulaContainer: {

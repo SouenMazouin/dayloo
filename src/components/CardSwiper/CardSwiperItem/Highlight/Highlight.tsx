@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Image } from 'react-native';
+import FastImage from 'react-native-fast-image';
 
 import tagParser from '../../../../services/parsers/TagParser';
 import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
@@ -14,11 +15,12 @@ const Highlight = ({ item }: SwiperItemProps): JSX.Element => {
         </View>
       ) : (
         <View style={styles.highlightTitleImageContainer}>
-          <Image
+          <FastImage
             style={styles.highlightTitleImage}
-            resizeMode={'contain'}
+            // resizeMode={FastImage.resizeMode.cover}
             source={{
               uri: item.highlight.content,
+              priority: FastImage.priority.high,
             }}
           />
         </View>
