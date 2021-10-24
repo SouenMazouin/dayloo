@@ -26,7 +26,7 @@ const CardSwiper = (): JSX.Element => {
     <SafeAreaView style={styles.swiperSafeArea}>
       <View style={styles.swiperContainer}>
         {cardsItem.length == 0 || cardsItem.length == undefined ? (
-          <ActivityIndicator size="large" color={'#FF7E34'} />
+          <ActivityIndicator size={45} color={'#13D8A4'} />
         ) : (
           <Carousel
             vertical={false}
@@ -38,7 +38,7 @@ const CardSwiper = (): JSX.Element => {
             disableIntervalMomentum={true}
             renderItem={({ item, index }: SwiperItemProps) => {
               const categoryExtract = categories.filter((category) => {
-                return category?.id === item?.idCategory;
+                return category.id === item.idCategory;
               })[0];
               return <CardSwiperItem item={item} index={index} category={categoryExtract} />;
             }}

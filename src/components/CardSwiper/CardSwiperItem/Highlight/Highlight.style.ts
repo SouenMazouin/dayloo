@@ -3,6 +3,11 @@ const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
 const styles = StyleSheet.create({
+  activityContainer: {
+    flex: 1,
+    width: '100%',
+    justifyContent: 'center',
+  },
   highlightTitleImageContainer: {
     flex: 1,
     marginTop: 15,

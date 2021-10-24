@@ -2,7 +2,6 @@ import React from 'react';
 import { Image, View } from 'react-native';
 
 import tagParser from '../../../../services/parsers/TagParser';
-import blocksIconMapper from '../../../../services/mappers/BlocksIconsMapper';
 import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
 import styles from './BlocksTable.style';
 
@@ -16,7 +15,7 @@ const BlocksTable = ({ item }: SwiperItemProps): JSX.Element => {
               <View style={styles.blocksSubContainers}>
                 <Image
                   style={styles.icons}
-                  source={blocksIconMapper(mappedBlocks.highlight.content)}
+                  source={{ uri: `asset:/images/icons/${mappedBlocks.highlight.content}.png` }}
                 />
                 <View style={styles.blockTableContainer}>
                   {tagParser(mappedBlocks.text, styles.blockText, styles.blockMath)}
