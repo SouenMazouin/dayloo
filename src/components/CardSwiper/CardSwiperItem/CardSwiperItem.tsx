@@ -15,7 +15,7 @@ const CardSwiperItem = ({ index, item, category }: SwiperItemProps): JSX.Element
       <FlatList
         style={styles.cardScrollFlatlist}
         data={[item]}
-        renderItem={({ item }: SwiperItemProps): JSX.Element => {
+        renderItem={() => {
           return (
             <View>
               <Logo index={index} item={item} category={category} />

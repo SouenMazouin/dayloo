@@ -2,8 +2,8 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   blocksSeparator: {
-    height: 1,
-    width: '80%',
+    height: 0.8,
+    width: '70%',
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.5,
     shadowRadius: 3.27,
-    elevation: 1.8,
+    elevation: 1.4,
   },
   blocksSeparatorContainer: {
     alignItems: 'center',

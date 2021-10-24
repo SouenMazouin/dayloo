@@ -1,11 +1,14 @@
-import React from 'react';
-import { View, Image } from 'react-native';
+import React, { useState } from 'react';
+import { ActivityIndicator, View } from 'react-native';
+import FastImage from 'react-native-fast-image';
 
 import tagParser from '../../../../services/parsers/TagParser';
 import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
 import styles from './Highlight.style';
 
-const Highlight = ({ item }: SwiperItemProps): JSX.Element => {
+const Highlight = ({ item, category }: SwiperItemProps): JSX.Element => {
+  const [loading, setLoading] = useState(true);
+
   return (
     <View>
       {item.highlight.type == 'formule' ? (
@@ -13,15 +16,27 @@ const Highlight = ({ item }: SwiperItemProps): JSX.Element => {
           {tagParser(item.highlight.content, undefined, styles.highlightTitleFormula)}
         </View>
       ) : (
-        <View style={styles.highlightTitleImageContainer}>
-          <Image
-            style={styles.highlightTitleImage}
-            resizeMode={'contain'}
-            source={{
-              uri: item.highlight.content,
-            }}
-          />
-        </View>
+        <>
+          <View style={styles.highlightTitleImageContainer}>
+            {loading == true ? (
+              <ActivityIndicator
+                style={styles.activityContainer}
+                size="large"
+                color={category.lightColor}
+              />
+            ) : (
+              <></>
+            )}
+            <FastImage
+              style={styles.highlightTitleImage}
+              source={{
+                uri: item.highlight.content,
+                priority: FastImage.priority.high,
+              }}
+              onLoadEnd={() => setLoading(false)}
+            />
+          </View>
+        </>
       )}
     </View>
   );

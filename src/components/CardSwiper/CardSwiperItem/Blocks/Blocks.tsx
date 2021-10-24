@@ -7,12 +7,12 @@ import BlocksSeprarator from './BlocksSeprarator';
 import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
 import styles from './Blocks.style';
 
-const Blocks = ({ item, category }: SwiperItemProps): JSX.Element => {
+const Blocks = ({ index, item, category }: SwiperItemProps): JSX.Element => {
   return (
     <View style={styles.blocksContainer}>
-      <BlocksTable item={item} />
-      <BlocksSeprarator item={item} category={category} />
-      <BlocksParagraph item={item} />
+      <BlocksTable index={index} item={item} category={category} />
+      <BlocksSeprarator index={index} item={item} category={category} />
+      <BlocksParagraph index={index} item={item} category={category} />
     </View>
   );
 };
