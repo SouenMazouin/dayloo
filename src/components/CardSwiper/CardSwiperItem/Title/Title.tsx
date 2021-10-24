@@ -9,7 +9,7 @@ const Title = ({ item, category }: SwiperItemProps): JSX.Element => {
   return (
     <View style={styles.titleContainer}>
       {tagParser(item.title, {
-        color: category.lightColor,
+        color: category?.lightColor,
         fontSize: 38,
         textAlign: 'center',
         fontFamily: 'PrimerPrint',

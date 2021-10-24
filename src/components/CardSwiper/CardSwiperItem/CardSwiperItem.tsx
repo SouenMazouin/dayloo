@@ -6,6 +6,7 @@ import Logo from './Logo/Logo';
 import Title from './Title/Title';
 import Highlight from './Highlight/Highlight';
 import Blocks from './Blocks/Blocks';
+import About from './About/About';
 import { SwiperItemProps } from '../../../shared/interfaces/cardSwiper';
 import styles from './CardSwiperItem.style';
 
@@ -22,6 +23,7 @@ const CardSwiperItem = ({ index, item, category }: SwiperItemProps): JSX.Element
               <Title index={index} item={item} category={category} />
               <Highlight index={index} item={item} category={category} />
               <Blocks index={index} item={item} category={category} />
+              <About index={index} item={item} category={category} />
             </View>
           );
         }}

@@ -8,10 +8,10 @@ const Logo = ({ category }: SwiperItemProps): JSX.Element => {
   const [loading, setLoading] = useState(true);
   return (
     <View style={styles.logoContainer}>
-      <View style={[{ backgroundColor: category.lightColor }, styles.leftLine]} />
+      <View style={[{ backgroundColor: category?.lightColor }, styles.leftLine]} />
       {loading == true ? (
         <View style={styles.activityContainer}>
-          <ActivityIndicator size="large" color={category.lightColor} />
+          <ActivityIndicator size="large" color={category?.lightColor} />
         </View>
       ) : (
         <></>
@@ -19,17 +19,17 @@ const Logo = ({ category }: SwiperItemProps): JSX.Element => {
       <Image
         style={[
           {
-            backgroundColor: loading == false ? category.lightColor : 'rgba(255, 255, 255, 0)',
+            backgroundColor: loading == false ? category?.lightColor : 'rgba(255, 255, 255, 0)',
             display: loading == false ? 'flex' : 'none',
           },
           styles.logoCategorie,
         ]}
         resizeMode={'contain'}
-        source={{ uri: `asset:/images/categories/${category.logo}` }}
+        source={{ uri: `asset:/images/categories/${category?.logo}` }}
         onLoadEnd={() => setLoading(false)}
       />
 
-      <View style={[{ backgroundColor: category.lightColor }, styles.rightLine]} />
+      <View style={[{ backgroundColor: category?.lightColor }, styles.rightLine]} />
     </View>
   );
 };

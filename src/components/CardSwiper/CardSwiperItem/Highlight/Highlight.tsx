@@ -22,7 +22,7 @@ const Highlight = ({ item, category }: SwiperItemProps): JSX.Element => {
               <ActivityIndicator
                 style={styles.activityContainer}
                 size="large"
-                color={category.lightColor}
+                color={category?.lightColor}
               />
             ) : (
               <></>

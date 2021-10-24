@@ -7,7 +7,7 @@ import styles from './BlocksSeparator.style';
 const BlocksSeparator = ({ category }: SwiperItemProps): JSX.Element => {
   return (
     <View style={styles.blocksSeparatorContainer}>
-      <View style={[styles.blocksSeparator, { backgroundColor: category.lightColor }]}></View>
+      <View style={[styles.blocksSeparator, { backgroundColor: category?.lightColor }]}></View>
     </View>
   );
 };
