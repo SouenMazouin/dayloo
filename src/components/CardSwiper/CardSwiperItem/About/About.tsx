@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Pressable, Linking, Text } from 'react-native';
 
-import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
+import { SwiperItemProps } from '../../../../shared/@types/cardSwiper';
 import styles from './About.style';
 
 const About = ({ item, category }: SwiperItemProps): JSX.Element => {

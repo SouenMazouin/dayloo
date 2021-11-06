@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Image, ActivityIndicator } from 'react-native';
 
-import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
+import { SwiperItemProps } from '../../../../shared/@types/cardSwiper';
 import styles from './Logo.style';
 
 const Logo = ({ category }: SwiperItemProps): JSX.Element => {

@@ -18,7 +18,7 @@ const DrawerMenu = (props: DrawerContentComponentProps<DrawerContentOptions>): J
           <Pressable
             onPress={() => props.navigation.closeDrawer()}
             android_ripple={{ color: 'rgba(189, 189, 189, 0.4)', borderless: true }}>
-            <Image style={styles.icons} source={{ uri: 'asset:/images/icons/fa-times.png' }} />
+            <Image style={styles.icons} source={{ uri: 'asset:/images/icons/times.png' }} />
           </Pressable>
         </View>
       </View>

@@ -1,4 +1,4 @@
-export interface ItemProps {
+export type ItemProps = {
   id: string;
   idTitle: string;
   idCategory: string;
@@ -12,9 +12,9 @@ export interface ItemProps {
   ];
   source: string;
   isLoading?: boolean;
-}
+};
 
-export interface CategoryProps {
+export type CategoryProps = {
   darkColor: string;
   lightColor: string;
   title: string;
@@ -22,10 +22,10 @@ export interface CategoryProps {
   id: string;
   description: string;
   active: boolean;
-}
+};
 
-export interface SwiperItemProps {
+export type SwiperItemProps = {
   item: ItemProps;
   index: number;
   category: CategoryProps;
-}
+};

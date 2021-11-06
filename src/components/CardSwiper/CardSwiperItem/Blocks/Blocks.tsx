@@ -4,7 +4,7 @@ import { View } from 'react-native';
 import BlocksTable from './BlocksTable';
 import BlocksParagraph from './BlocksParagraph';
 import BlocksSeprarator from './BlocksSeprarator';
-import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
+import { SwiperItemProps } from '../../../../shared/@types/cardSwiper';
 import styles from './Blocks.style';
 
 const Blocks = ({ index, item, category }: SwiperItemProps): JSX.Element => {

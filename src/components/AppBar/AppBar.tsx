@@ -12,14 +12,16 @@ const AppBar = (props: StackHeaderProps): JSX.Element => {
         <Pressable
           onPress={() => props.navigation.dispatch(DrawerActions.openDrawer())}
           android_ripple={{ color: 'rgba(189, 189, 189, 0.4)', borderless: true }}>
-          <Image style={styles.icons} source={{ uri: 'asset:/images/icons/fa-bars.png' }} />
+          <Image style={styles.icons} source={{ uri: 'asset:/images/icons/bars.png' }} />
         </Pressable>
       </View>
       <View style={styles.buttonMenuContainer}>
         <Pressable
-          onPress={() => {}}
+          onPress={() => {
+            /* TODO */
+          }}
           android_ripple={{ color: 'rgba(189, 189, 189, 0.4)', borderless: true }}>
-          <Image style={styles.icons} source={{ uri: 'asset:/images/icons/fa-calendar.png' }} />
+          <Image style={styles.icons} source={{ uri: 'asset:/images/icons/calendar.png' }} />
         </Pressable>
       </View>
     </View>

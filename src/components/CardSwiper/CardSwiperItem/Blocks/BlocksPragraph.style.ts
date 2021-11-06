@@ -2,6 +2,9 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   paragraphBlockContainer: {
+    marginTop: 20,
+  },
+  paragraphBlockSubContainer: {
     paddingLeft: 14,
     paddingBottom: 15,
     paddingTop: 10,

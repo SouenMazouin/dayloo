@@ -4,23 +4,16 @@ import { View, SafeAreaView, Dimensions, ActivityIndicator } from 'react-native'
 import Carousel from 'react-native-snap-carousel';
 
 import CardSwiperItem from './CardSwiperItem/CardSwiperItem';
-import { SwiperItemProps } from '../../shared/interfaces/cardSwiper';
-import { fetchFirestoreCards } from '../../services/firestore/FetchFirestoreCards';
-import { fetchFirestoreCategories } from '../../services/firestore/FetchFirestoreCategories';
+import { SwiperItemProps } from '../../shared/@types/cardSwiper';
+import { fetchFirestoreCards } from '../../services/firestore/cardsProvider/FetchFirestoreCards';
+import { fetchFirestoreCategories } from '../../services/firestore/categoryProvider/FetchFirestoreCategories';
 import styles from './CardSwiper.style';
-
-// TODO: Prise en charge des dates via calendrier
-// En fonction du jour selectionné (current compris)
-// Convertir le timestamp en string au format 'aaaa/mm/dd'
-// Puis setter cette variable avec la date au bon format
-
-const currentCalendarDate = '';
 
 const CardSwiper = (): JSX.Element => {
   const windowWidth = Dimensions.get('window').width;
   const carouselRef = useRef(null);
 
-  const cardsItem = fetchFirestoreCards(currentCalendarDate);
+  const cardsItem = fetchFirestoreCards(1635372000000)
   const categories = fetchFirestoreCategories();
   return (
     <SafeAreaView style={styles.swiperSafeArea}>
