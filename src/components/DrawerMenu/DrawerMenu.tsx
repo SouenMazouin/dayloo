@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Text, Button, Pressable, Image } from 'react-native';
 import {
   DrawerContentComponentProps,
   DrawerContentOptions,
@@ -14,7 +14,13 @@ const DrawerMenu = (props: DrawerContentComponentProps<DrawerContentOptions>): J
     <DrawerContentScrollView {...props}>
       <View style={styles.headerContainer}>
         <Text style={styles.headerTitle}>MENU</Text>
-        <Button title="Close Icon" onPress={() => props.navigation.closeDrawer()} />
+        <View style={styles.buttonMenuContainer}>
+          <Pressable
+            onPress={() => props.navigation.closeDrawer()}
+            android_ripple={{ color: 'rgba(189, 189, 189, 0.4)', borderless: true }}>
+            <Image style={styles.icons} source={{ uri: 'asset:/images/icons/times.png' }} />
+          </Pressable>
+        </View>
       </View>
 
       <DrawerItemList {...props} />

@@ -11,6 +11,15 @@ const styles = StyleSheet.create({
     fontSize: 15,
     color: 'grey',
   },
+  buttonMenuContainer: {
+    borderRadius: 100,
+    margin: 10,
+  },
+  icons: {
+    height: 25,
+    width: 25,
+    borderRadius: 10,
+  },
 });
 
 export default styles;

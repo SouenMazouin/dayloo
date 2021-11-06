@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, View } from 'react-native';
 
 import tagParser from '../../../../services/parsers/TagParser';
-import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
+import { SwiperItemProps } from '../../../../shared/@types/cardSwiper';
 import styles from './BlocksTable.style';
 
 const BlocksTable = ({ item }: SwiperItemProps): JSX.Element => {

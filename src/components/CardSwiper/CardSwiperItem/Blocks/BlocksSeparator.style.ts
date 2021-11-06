@@ -15,7 +15,6 @@ const styles = StyleSheet.create({
   },
   blocksSeparatorContainer: {
     alignItems: 'center',
-    marginBottom: 20,
     marginTop: 15,
   },
 });

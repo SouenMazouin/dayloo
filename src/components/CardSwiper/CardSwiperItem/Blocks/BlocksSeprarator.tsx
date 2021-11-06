@@ -1,13 +1,13 @@
 import React from 'react';
 import { View } from 'react-native';
 
-import { SwiperItemProps } from '../../../../shared/interfaces/cardSwiper';
+import { SwiperItemProps } from '../../../../shared/@types/cardSwiper';
 import styles from './BlocksSeparator.style';
 
 const BlocksSeparator = ({ category }: SwiperItemProps): JSX.Element => {
   return (
     <View style={styles.blocksSeparatorContainer}>
-      <View style={[styles.blocksSeparator, { backgroundColor: category.lightColor }]}></View>
+      <View style={[styles.blocksSeparator, { backgroundColor: category?.lightColor }]}></View>
     </View>
   );
 };
