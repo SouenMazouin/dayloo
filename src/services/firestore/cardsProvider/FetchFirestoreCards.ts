@@ -3,14 +3,12 @@ import firestore from '@react-native-firebase/firestore';
 
 import { ItemProps } from '../../../shared/@types/cardSwiper';
 
-const contextTimestamp = 1635980400000;
-
-export const fetchFirestoreCards = (): ItemProps[] => {
+export const fetchFirestoreCards = (timestamp: number): ItemProps[] => {
   const [cards, setCards] = useState<ItemProps[]>([]);
   const fetchFirestore = () => {
     firestore()
       .collection('liste_fiches_2')
-      .where('datePublication', '==', contextTimestamp)
+      .where('datePublication', '==', timestamp)
       .onSnapshot((querySnapshot) => {
         const cardsList: ItemProps[] = [];
         querySnapshot.forEach((documentSnapshot) => {
@@ -23,6 +21,6 @@ export const fetchFirestoreCards = (): ItemProps[] => {
   };
   useEffect(() => {
     fetchFirestore();
-  }, []);
+  }, [timestamp]);
   return cards;
 };

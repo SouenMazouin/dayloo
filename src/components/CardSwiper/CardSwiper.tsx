@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
-import React, { useRef } from 'react';
+import React, { useContext, useRef } from 'react';
 import { View, SafeAreaView, Dimensions, ActivityIndicator } from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 
@@ -8,13 +8,16 @@ import { SwiperItemProps } from '../../shared/@types/cardSwiper';
 import { fetchFirestoreCards } from '../../services/firestore/cardsProvider/FetchFirestoreCards';
 import { fetchFirestoreCategories } from '../../services/firestore/categoryProvider/FetchFirestoreCategories';
 import styles from './CardSwiper.style';
+import { DateContext } from '../../services/dateProvider/dateProvider';
 
 const CardSwiper = (): JSX.Element => {
   const windowWidth = Dimensions.get('window').width;
-  const carouselRef = useRef(null);
 
-  const cardsItem = fetchFirestoreCards(1635372000000)
+  const { state, dispatch } = useContext(DateContext);
+  const cardsItem = fetchFirestoreCards(state.date);
+
   const categories = fetchFirestoreCategories();
+  const carouselRef = useRef(null);
   return (
     <SafeAreaView style={styles.swiperSafeArea}>
       <View style={styles.swiperContainer}>
