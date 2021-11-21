@@ -5,8 +5,8 @@ import Carousel from 'react-native-snap-carousel';
 
 import CardSwiperItem from './CardSwiperItem/CardSwiperItem';
 import { SwiperItemProps } from '../../shared/@types/cardSwiper';
-import { fetchFirestoreCards } from '../../services/firestore/cardsProvider/FetchFirestoreCards';
-import { fetchFirestoreCategories } from '../../services/firestore/categoryProvider/FetchFirestoreCategories';
+import { fetchFirestoreCards } from '../../services/firestoreProvider/cardsProvider/FetchFirestoreCards';
+import { fetchFirestoreCategories } from '../../services/firestoreProvider/categoryProvider/FetchFirestoreCategories';
 import styles from './CardSwiper.style';
 import { DateContext } from '../../services/dateProvider/dateProvider';
 
