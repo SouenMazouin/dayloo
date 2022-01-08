@@ -2,15 +2,15 @@ import React, { createContext, Dispatch, useReducer } from 'react';
 
 type ActionProps = {
   type: string;
-  date: number;
+  date: Date;
 };
 
 interface IDate {
-  date: number;
+  date: Date;
 }
 
 const initialDate = {
-  date: 1635980400000,
+  date: new Date(1635980400000),
 };
 
 const DateContext = createContext<{

@@ -14,7 +14,7 @@ const CardSwiper = (): JSX.Element => {
   const windowWidth = Dimensions.get('window').width;
 
   const { state, dispatch } = useContext(DateContext);
-  const cardsItem = fetchFirestoreCards(state.date);
+  const cardsItem = fetchFirestoreCards(state.date.setHours(0, 0, 0, 0));
 
   const categories = fetchFirestoreCategories();
   const carouselRef = useRef(null);

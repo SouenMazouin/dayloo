@@ -1,13 +1,11 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { View, Image, Pressable } from 'react-native';
 import { DrawerActions } from '@react-navigation/native';
 import { StackHeaderProps } from '@react-navigation/stack';
-
-import styles from './AppBar.style';
-import { DateContext } from '../../services/dateProvider/dateProvider';
 import DateTimePicker from '@react-native-community/datetimepicker';
 
-import Calendar from '../Calendar/Calendar';
+import { DateContext } from '../../services/dateProvider/dateProvider';
+import styles from './AppBar.style';
 
 const AppBar = (props: StackHeaderProps): JSX.Element => {
   const { state, dispatch } = useContext(DateContext);
@@ -15,18 +13,20 @@ const AppBar = (props: StackHeaderProps): JSX.Element => {
     date: new Date(),
     show: false,
   });
-  const onChange = (event, selectedDate) => {
-    const currentDate: Date = selectedDate || calendarState.date;
-    setCalendarState({ ...calendarState, date: currentDate, show: false });
+  const onChange = (event: Event, selectedDate: any) => {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+    setCalendarState({ date: selectedDate || calendarState.date, show: false });
   };
   const showPicker = () => {
     setCalendarState({ ...calendarState, show: true });
   };
+  useEffect(() => {
+    dispatch({
+      type: 'UPDATE_TIMESTAMP',
+      date: calendarState.date,
+    });
+  }, [calendarState]);
 
-  // dispatch({
-  //   type: 'UPDATE_TIMESTAMP',
-  //   date: calendarState.date.setHours(0, 0, 0, 0),
-  // });
   return (
     <>
       <View style={styles.appBarContainer}>
